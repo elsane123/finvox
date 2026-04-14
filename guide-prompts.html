@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50 Prompts IA pour Directeurs Financiers — FinVox</title>
+    <meta name="description" content="50 prompts IA prêts à l'emploi pour les DAF, CFO et contrôleurs : FP&A, CSRD, M&A, trésorerie. Copier-coller dans ChatGPT ou Claude.">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .guide-hero{background:linear-gradient(135deg,#0f172a,#1e293b);padding:5rem 0 3rem;text-align:center;color:white;}
+        .guide-hero h1{font-family:"Playfair Display",serif;font-size:2.5rem;margin-bottom:1rem;}
+        .guide-hero h1 span{color:#2563eb;}
+        .guide-hero p{color:#94a3b8;font-size:1.1rem;max-width:600px;margin:0 auto 2rem;}
+        .guide-stats{display:flex;justify-content:center;gap:2rem;flex-wrap:wrap;margin-top:2rem;}
+        .guide-stat strong{display:block;font-size:2rem;font-weight:800;color:#2563eb;}
+        .guide-stat span{font-size:.85rem;color:#94a3b8;}
+        .guide-content{max-width:1100px;margin:0 auto;padding:3rem 1.5rem;}
+        .prompt-category{margin-bottom:3rem;}
+        .prompt-category__title{font-size:1.4rem;font-weight:700;color:#0f172a;padding:.75rem 0;border-bottom:2px solid #e2e8f0;margin-bottom:1.5rem;}
+        .prompts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1.25rem;}
+        .prompt-card{background:white;border:1px solid #e2e8f0;border-radius:12px;padding:1.25rem;transition:.2s;}
+        .prompt-card:hover{border-color:#2563eb;box-shadow:0 4px 20px rgba(37,99,235,.12);}
+        .prompt-card__header{display:flex;gap:.75rem;align-items:flex-start;margin-bottom:1rem;}
+        .prompt-card__emoji{font-size:1.5rem;flex-shrink:0;margin-top:2px;}
+        .prompt-card__title{font-size:1rem;font-weight:600;color:#0f172a;margin-bottom:.25rem;}
+        .prompt-card__context{font-size:.8rem;color:#64748b;}
+        .prompt-card__body{background:#f8fafc;border-radius:8px;padding:1rem;margin-bottom:1rem;border-left:3px solid #2563eb;}
+        .prompt-card__code{font-family:"Inter",sans-serif;font-size:.82rem;color:#334155;line-height:1.6;white-space:pre-wrap;word-break:break-word;display:block;}
+        .prompt-card__copy{width:100%;background:#2563eb;color:white;border:none;border-radius:8px;padding:.6rem;font-size:.85rem;font-weight:600;cursor:pointer;transition:.2s;}
+        .prompt-card__copy:hover{background:#1d4ed8;}
+        .prompt-card__copy.copied{background:#10b981;}
+        .toc{background:#f0f9ff;border:1px solid #bfdbfe;border-radius:12px;padding:1.5rem 2rem;margin-bottom:3rem;}
+        .toc h3{color:#1d4ed8;margin-bottom:1rem;font-size:1rem;}
+        .toc ul{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.5rem;}
+        .toc ul li a{color:#2563eb;text-decoration:none;font-size:.9rem;}
+    </style>
+</head>
+<body>
+    <header class="header"><nav class="nav container">
+        <a href="index.html" class="nav__logo"><span class="nav__logo-text">Fin<span class="nav__logo-accent">Vox</span></span></a>
+        <ul class="nav__menu"><li><a href="https://finvox.beehiiv.com/subscribe" class="nav__link nav__cta">S&#39;inscrire gratuitement</a></li></ul>
+    </nav></header>
+
+    <div class="guide-hero">
+        <div class="container">
+            <p style="color:#2563eb;font-weight:600;text-transform:uppercase;font-size:.85rem;letter-spacing:.1em;margin-bottom:.5rem;">&#127873; Cadeau FinVox</p>
+            <h1>50 Prompts IA pour <span>Directeurs Financiers</span></h1>
+            <p>Pr&ecirc;ts &agrave; l&#39;emploi. Copier-coller dans ChatGPT, Claude ou Gemini.<br>FP&amp;A, CSRD, M&amp;A, Tr&eacute;sorerie, Contr&ocirc;le de Gestion et plus.</p>
+            <div class="guide-stats">
+                <div class="guide-stat"><strong>50</strong><span>prompts actionables</span></div>
+                <div class="guide-stat"><strong>11</strong><span>cat&eacute;gories m&eacute;tier</span></div>
+                <div class="guide-stat"><strong>100%</strong><span>copier-coller</span></div>
+                <div class="guide-stat"><strong>0</strong><span>jargon tech</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="guide-content">
+        <div class="toc">
+            <h3>&#128196; Table des mati&egrave;res</h3>
+            <ul><li><a href="#cat-fpanda-and-forecasting">📊 FP&A & Forecasting</a></li>
+<li><a href="#cat-reporting-and-closing">📋 Reporting & Closing</a></li>
+<li><a href="#cat-trésorerie-and-cash-flow">💵 Trésorerie & Cash Flow</a></li>
+<li><a href="#cat-csrd-and-esg">🌿 CSRD & ESG</a></li>
+<li><a href="#cat-manda-and-due-diligence">🔍 M&A & Due Diligence</a></li>
+<li><a href="#cat-contrôle-de-gestion">⚙️ Contrôle de Gestion</a></li>
+<li><a href="#cat-fraude-and-audit">🛡️ Fraude & Audit</a></li>
+<li><a href="#cat-financement">💼 Financement</a></li>
+<li><a href="#cat-communication-financière">📢 Communication Financière</a></li>
+<li><a href="#cat-réglementation">⚖️ Réglementation</a></li>
+<li><a href="#cat-outils-and-ia">🤖 Outils & IA</a></li></ul>
+        </div>
+        <div class="prompt-category" id="cat-fpanda-and-forecasting"><h2 class="prompt-category__title">📊 FP&A & Forecasting</h2><div class="prompts-grid">
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">📊</span>
+                <div>
+                    <h3 class="prompt-card__title">Analyser un écart budgétaire</h3>
+                    <p class="prompt-card__context">Budget vs. réel avec explications narratives</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Tu es un analyste financier expert. Analyse l'écart budgétaire suivant et rédige une explication narrative de 150 mots pour le CODIR : Poste [NOM] | Budget [MONTANT] | Réel [MONTANT] | Écart [%]. Identifie 3 causes probables et propose 2 actions correctives.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Tu es un analyste financier expert. Analyse l&#39;écart budgétaire suivant et rédige une explication narrative de 150 mots pour le CODIR : Poste [NOM] | Budget [MONTANT] | Réel [MONTANT] | Écart [%]. Identifie 3 causes probables et propose 2 actions correctives.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">📊</span>
+                <div>
+                    <h3 class="prompt-card__title">Construire un forecast trimestriel</h3>
+                    <p class="prompt-card__context">Prévisions P&L sur 3 scénarios</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">À partir des données suivantes, construis un forecast pour le prochain trimestre : CA M-3 [X] | CA M-2 [X] | CA M-1 [X] | Tendances sectorielles [décrire]. Propose 3 scénarios (optimiste, neutre, pessimiste) avec les hypothèses clés.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="À partir des données suivantes, construis un forecast pour le prochain trimestre : CA M-3 [X] | CA M-2 [X] | CA M-1 [X] | Tendances sectorielles [décrire]. Propose 3 scénarios (optimiste, neutre, pessimiste) avec les hypothèses clés.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">📊</span>
+                <div>
+                    <h3 class="prompt-card__title">Synthétiser un budget annuel</h3>
+                    <p class="prompt-card__context">Résumé exécutif pour le board</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Rédige un résumé exécutif de 200 mots pour le board à partir du budget annuel : [chiffres clés]. Mets en avant les 3 priorités d'investissement, les risques principaux et le ROI attendu. Ton : professionnel et direct.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Rédige un résumé exécutif de 200 mots pour le board à partir du budget annuel : [chiffres clés]. Mets en avant les 3 priorités d&#39;investissement, les risques principaux et le ROI attendu. Ton : professionnel et direct.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">📊</span>
+                <div>
+                    <h3 class="prompt-card__title">Modéliser un scénario what-if</h3>
+                    <p class="prompt-card__context">Impact d'un changement de variable</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Simule l'impact financier sur le P&amp;L annuel du scénario suivant : [décrire]. Paramètres : CA [X] | Charges variables [X] | Charges fixes [X] | Marge brute [X%]. Montre l'impact ligne par ligne et le nouveau point mort.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Simule l&#39;impact financier sur le P&amp;L annuel du scénario suivant : [décrire]. Paramètres : CA [X] | Charges variables [X] | Charges fixes [X] | Marge brute [X%]. Montre l&#39;impact ligne par ligne et le nouveau point mort.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">📊</span>
+                <div>
+                    <h3 class="prompt-card__title">Identifier les top 5 drivers de revenus</h3>
+                    <p class="prompt-card__context">Analyse des leviers de croissance</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Analyse les données financières suivantes et identifie les 5 principaux drivers de croissance du CA : [données]. Pour chacun : poids dans la croissance, tendance sur 3 ans, sensibilité aux variables externes.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Analyse les données financières suivantes et identifie les 5 principaux drivers de croissance du CA : [données]. Pour chacun : poids dans la croissance, tendance sur 3 ans, sensibilité aux variables externes.">Copier le prompt</button>
+        </div></div></div><div class="prompt-category" id="cat-reporting-and-closing"><h2 class="prompt-category__title">📋 Reporting & Closing</h2><div class="prompts-grid">
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">📋</span>
+                <div>
+                    <h3 class="prompt-card__title">Rédiger le commentaire de clôture mensuelle</h3>
+                    <p class="prompt-card__context">Narrative financière CODIR</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Rédige le commentaire de clôture du mois [MOIS] en 250 mots pour le CODIR : CA [X] vs budget [X] (écart [X%]) | EBITDA [X] | Cash [X]. Ton factuel, orienté décision. Inclus 3 points d'attention pour le mois suivant.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Rédige le commentaire de clôture du mois [MOIS] en 250 mots pour le CODIR : CA [X] vs budget [X] (écart [X%]) | EBITDA [X] | Cash [X]. Ton factuel, orienté décision. Inclus 3 points d&#39;attention pour le mois suivant.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">📋</span>
+                <div>
+                    <h3 class="prompt-card__title">Résumer un rapport financier PDF</h3>
+                    <p class="prompt-card__context">Extraction des insights clés</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Voici le contenu d'un rapport financier [coller le texte]. Extrais : 1) Les 5 chiffres clés 2) Les 3 risques 3) Les 2 recommandations principales 4) Un titre accrocheur pour la slide de présentation. Format : bullet points concis.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Voici le contenu d&#39;un rapport financier [coller le texte]. Extrais : 1) Les 5 chiffres clés 2) Les 3 risques 3) Les 2 recommandations principales 4) Un titre accrocheur pour la slide de présentation. Format : bullet points concis.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">📋</span>
+                <div>
+                    <h3 class="prompt-card__title">Créer un template de dashboard KPI</h3>
+                    <p class="prompt-card__context">Structure de suivi mensuel</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Propose la structure d'un dashboard financier mensuel pour une ETI de [taille] dans le secteur [secteur]. Inclus : les 8 KPI indispensables avec formule, fréquence de mise à jour, seuil d'alerte et format de visualisation recommandé.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Propose la structure d&#39;un dashboard financier mensuel pour une ETI de [taille] dans le secteur [secteur]. Inclus : les 8 KPI indispensables avec formule, fréquence de mise à jour, seuil d&#39;alerte et format de visualisation recommandé.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">📋</span>
+                <div>
+                    <h3 class="prompt-card__title">Préparer les slides du board financier</h3>
+                    <p class="prompt-card__context">Structure et messages clés</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Structure un deck de 8 slides pour présenter les résultats du trimestre au board. Pour chaque slide : titre, message clé en 1 phrase, données à inclure. Contexte : [secteur], [taille], [résultats bons/mitigés/mauvais].</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Structure un deck de 8 slides pour présenter les résultats du trimestre au board. Pour chaque slide : titre, message clé en 1 phrase, données à inclure. Contexte : [secteur], [taille], [résultats bons/mitigés/mauvais].">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">📋</span>
+                <div>
+                    <h3 class="prompt-card__title">Analyser la rentabilité par business unit</h3>
+                    <p class="prompt-card__context">Comparaison et recommandations</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Analyse la rentabilité des BUs suivantes et recommande les actions prioritaires : [BU1 : CA X, charges X, marge X%] [BU2 : ...] [BU3 : ...]. Identifie la BU à développer en priorité et celle qui nécessite un plan d'action immédiat.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Analyse la rentabilité des BUs suivantes et recommande les actions prioritaires : [BU1 : CA X, charges X, marge X%] [BU2 : ...] [BU3 : ...]. Identifie la BU à développer en priorité et celle qui nécessite un plan d&#39;action immédiat.">Copier le prompt</button>
+        </div></div></div><div class="prompt-category" id="cat-trésorerie-and-cash-flow"><h2 class="prompt-category__title">💵 Trésorerie & Cash Flow</h2><div class="prompts-grid">
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">💵</span>
+                <div>
+                    <h3 class="prompt-card__title">Prévision de trésorerie à 13 semaines</h3>
+                    <p class="prompt-card__context">Cash flow forecast opérationnel</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Construis un modèle de prévision de trésorerie à 13 semaines : Solde initial [X] | Encaissements récurrents [décrire] | Décaissements fixes [décrire] | Variables à surveiller [décrire]. Identifie les semaines à risque et les actions préventives.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Construis un modèle de prévision de trésorerie à 13 semaines : Solde initial [X] | Encaissements récurrents [décrire] | Décaissements fixes [décrire] | Variables à surveiller [décrire]. Identifie les semaines à risque et les actions préventives.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">💵</span>
+                <div>
+                    <h3 class="prompt-card__title">Optimiser le BFR</h3>
+                    <p class="prompt-card__context">Réduction du besoin en fonds de roulement</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Analyse mon BFR et propose 5 actions concrètes pour le réduire : DSO [X jours] | DPO [X jours] | Stock [X jours]. Calcule le gain de trésorerie pour chaque action et classe-les par facilité de mise en oeuvre.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Analyse mon BFR et propose 5 actions concrètes pour le réduire : DSO [X jours] | DPO [X jours] | Stock [X jours]. Calcule le gain de trésorerie pour chaque action et classe-les par facilité de mise en oeuvre.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">💵</span>
+                <div>
+                    <h3 class="prompt-card__title">Évaluer une décision d'investissement</h3>
+                    <p class="prompt-card__context">Calcul ROI complet</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Évalue cet investissement et rédige l'argumentation pour le board : Investissement [X€] | Gains attendus [décrire] | Durée [X ans] | Coût du capital [X%]. Calcule ROI, payback period, VAN et TRI. Donne une recommandation en 3 lignes.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Évalue cet investissement et rédige l&#39;argumentation pour le board : Investissement [X€] | Gains attendus [décrire] | Durée [X ans] | Coût du capital [X%]. Calcule ROI, payback period, VAN et TRI. Donne une recommandation en 3 lignes.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">💵</span>
+                <div>
+                    <h3 class="prompt-card__title">Analyser les flux opérationnels</h3>
+                    <p class="prompt-card__context">Diagnostic cash flow</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Analyse les flux de trésorerie opérationnels suivants et identifie les anomalies : [données]. Réponds à : 1) Le cash converge-t-il avec le résultat net ? 2) Quels postes dégradent le cash ? 3) Quels quick wins ce trimestre ?</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Analyse les flux de trésorerie opérationnels suivants et identifie les anomalies : [données]. Réponds à : 1) Le cash converge-t-il avec le résultat net ? 2) Quels postes dégradent le cash ? 3) Quels quick wins ce trimestre ?">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">💵</span>
+                <div>
+                    <h3 class="prompt-card__title">Rédiger un plan de financement</h3>
+                    <p class="prompt-card__context">Dossier banque ou investisseur</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Rédige un plan de financement synthétique (1 page) pour [projet]. Besoin total [X€], structure proposée, capacité de remboursement basée sur [EBITDA], garanties disponibles, timeline. Ton : bancaire professionnel.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Rédige un plan de financement synthétique (1 page) pour [projet]. Besoin total [X€], structure proposée, capacité de remboursement basée sur [EBITDA], garanties disponibles, timeline. Ton : bancaire professionnel.">Copier le prompt</button>
+        </div></div></div><div class="prompt-category" id="cat-csrd-and-esg"><h2 class="prompt-category__title">🌿 CSRD & ESG</h2><div class="prompts-grid">
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🌿</span>
+                <div>
+                    <h3 class="prompt-card__title">Rédiger le narrative CSRD</h3>
+                    <p class="prompt-card__context">Rapport de durabilité obligatoire</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Rédige le paragraphe d'introduction du rapport CSRD pour [entreprise], secteur [secteur], [X] salariés. Inclus : double matérialité, 3 enjeux ESG prioritaires, engagement de la direction. 300 mots, ton institutionnel.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Rédige le paragraphe d&#39;introduction du rapport CSRD pour [entreprise], secteur [secteur], [X] salariés. Inclus : double matérialité, 3 enjeux ESG prioritaires, engagement de la direction. 300 mots, ton institutionnel.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🌿</span>
+                <div>
+                    <h3 class="prompt-card__title">Construire la matrice de double matérialité</h3>
+                    <p class="prompt-card__context">Enjeux financiers et d'impact</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Aide-moi à construire la matrice de double matérialité CSRD pour une ETI dans le secteur [secteur]. Pour 10 enjeux ESG pertinents, évalue sur 5 : matérialité financière et matérialité d'impact. Présente sous forme de tableau.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Aide-moi à construire la matrice de double matérialité CSRD pour une ETI dans le secteur [secteur]. Pour 10 enjeux ESG pertinents, évalue sur 5 : matérialité financière et matérialité d&#39;impact. Présente sous forme de tableau.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🌿</span>
+                <div>
+                    <h3 class="prompt-card__title">Calculer et commenter l'empreinte carbone</h3>
+                    <p class="prompt-card__context">Scope 1, 2 et 3</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">À partir des données suivantes, calcule et commente l'empreinte carbone Scope 1+2+3 : [données énergie, transport, achats]. Pour chaque scope : postes majeurs et 2 actions de réduction réalistes avec ordre de grandeur d'impact.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="À partir des données suivantes, calcule et commente l&#39;empreinte carbone Scope 1+2+3 : [données énergie, transport, achats]. Pour chaque scope : postes majeurs et 2 actions de réduction réalistes avec ordre de grandeur d&#39;impact.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🌿</span>
+                <div>
+                    <h3 class="prompt-card__title">Répondre à un questionnaire ESG fournisseur</h3>
+                    <p class="prompt-card__context">Questions grand compte</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Rédige des réponses professionnelles aux questions ESG suivantes posées par un client : [coller les questions]. Notre entreprise : [secteur, taille, certifications, actions ESG]. Ton factuel, positif sans sur-promettre. Max 3 lignes par réponse.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Rédige des réponses professionnelles aux questions ESG suivantes posées par un client : [coller les questions]. Notre entreprise : [secteur, taille, certifications, actions ESG]. Ton factuel, positif sans sur-promettre. Max 3 lignes par réponse.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🌿</span>
+                <div>
+                    <h3 class="prompt-card__title">Analyser les risques climatiques TCFD</h3>
+                    <p class="prompt-card__context">Physical et transition risks</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Identifie et quantifie les risques climatiques financiers pour [secteur] selon le cadre TCFD : 1) Risques physiques 2) Risques de transition. Pour chacun : impact financier potentiel et mesures d'atténuation recommandées.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Identifie et quantifie les risques climatiques financiers pour [secteur] selon le cadre TCFD : 1) Risques physiques 2) Risques de transition. Pour chacun : impact financier potentiel et mesures d&#39;atténuation recommandées.">Copier le prompt</button>
+        </div></div></div><div class="prompt-category" id="cat-manda-and-due-diligence"><h2 class="prompt-category__title">🔍 M&A & Due Diligence</h2><div class="prompts-grid">
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🔍</span>
+                <div>
+                    <h3 class="prompt-card__title">Analyser un bilan d'acquisition cible</h3>
+                    <p class="prompt-card__context">Red flags financiers</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Analyse le bilan de cette cible d'acquisition et identifie les red flags : [données financières]. Vérifie : cohérence du BFR, qualité des actifs, niveau d'endettement, engagements hors-bilan. Score de risque /10 et 5 points de vigilance prioritaires.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Analyse le bilan de cette cible d&#39;acquisition et identifie les red flags : [données financières]. Vérifie : cohérence du BFR, qualité des actifs, niveau d&#39;endettement, engagements hors-bilan. Score de risque /10 et 5 points de vigilance prioritaires.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🔍</span>
+                <div>
+                    <h3 class="prompt-card__title">Rédiger un mémo de valorisation</h3>
+                    <p class="prompt-card__context">DCF et multiples comparables</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Rédige un mémo de valorisation synthétique pour [cible] : DCF [hypothèses] + multiples sectoriels EV/EBITDA [X]x. Donne une fourchette de valorisation, les hypothèses sensibles et la recommandation d'offre avec décote/prime justifiée. Max 400 mots.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Rédige un mémo de valorisation synthétique pour [cible] : DCF [hypothèses] + multiples sectoriels EV/EBITDA [X]x. Donne une fourchette de valorisation, les hypothèses sensibles et la recommandation d&#39;offre avec décote/prime justifiée. Max 400 mots.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🔍</span>
+                <div>
+                    <h3 class="prompt-card__title">Préparer la checklist due diligence</h3>
+                    <p class="prompt-card__context">Programme complet d'audit</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Génère une checklist de due diligence financière complète pour l'acquisition d'une [PME/ETI] dans le secteur [secteur]. Organise par thème : historique financier, projections, trésorerie, dette, litiges, actifs immatériels. Format actionnable avec responsable.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Génère une checklist de due diligence financière complète pour l&#39;acquisition d&#39;une [PME/ETI] dans le secteur [secteur]. Organise par thème : historique financier, projections, trésorerie, dette, litiges, actifs immatériels. Format actionnable avec responsable.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🔍</span>
+                <div>
+                    <h3 class="prompt-card__title">Analyser la qualité des revenus (QoE)</h3>
+                    <p class="prompt-card__context">Revenue quality assessment</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Analyse la qualité des revenus pour [entreprise] : CA [X] dont récurrent [X%], one-shot [X%], clients concentrés [X% top 3]. Identifie les ajustements EBITDA normalisé, les revenus à risque et donne un avis sur la pérennité du CA.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Analyse la qualité des revenus pour [entreprise] : CA [X] dont récurrent [X%], one-shot [X%], clients concentrés [X% top 3]. Identifie les ajustements EBITDA normalisé, les revenus à risque et donne un avis sur la pérennité du CA.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🔍</span>
+                <div>
+                    <h3 class="prompt-card__title">Rédiger le business plan post-acquisition</h3>
+                    <p class="prompt-card__context">Intégration et synergies</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Rédige le business plan des 18 premiers mois post-acquisition de [cible] par [acquéreur]. Synergies identifiées avec timeline, plan d'intégration financière, KPI de suivi, risques d'intégration et quick wins des 90 premiers jours.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Rédige le business plan des 18 premiers mois post-acquisition de [cible] par [acquéreur]. Synergies identifiées avec timeline, plan d&#39;intégration financière, KPI de suivi, risques d&#39;intégration et quick wins des 90 premiers jours.">Copier le prompt</button>
+        </div></div></div><div class="prompt-category" id="cat-contrôle-de-gestion"><h2 class="prompt-category__title">⚙️ Contrôle de Gestion</h2><div class="prompts-grid">
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">⚙️</span>
+                <div>
+                    <h3 class="prompt-card__title">Calculer un coût de revient</h3>
+                    <p class="prompt-card__context">Analyse de rentabilité produit</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Calcule le coût de revient complet de [produit/service] : Matières [X] | Main d'oeuvre directe [X] | Frais généraux alloués [X] | Coût commercial [X]. Compare au prix de vente [X] et propose les leviers d'amélioration de marge.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Calcule le coût de revient complet de [produit/service] : Matières [X] | Main d&#39;oeuvre directe [X] | Frais généraux alloués [X] | Coût commercial [X]. Compare au prix de vente [X] et propose les leviers d&#39;amélioration de marge.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">⚙️</span>
+                <div>
+                    <h3 class="prompt-card__title">Identifier les centres de coût sous-performants</h3>
+                    <p class="prompt-card__context">Benchmarking interne</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Analyse ces centres de coût et identifie les 3 plus sous-performants : [liste avec budget vs réel]. Pour chacun : 2 actions correctives réalistes et le gain potentiel. Tableau de pilotage avec indicateurs de suivi.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Analyse ces centres de coût et identifie les 3 plus sous-performants : [liste avec budget vs réel]. Pour chacun : 2 actions correctives réalistes et le gain potentiel. Tableau de pilotage avec indicateurs de suivi.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">⚙️</span>
+                <div>
+                    <h3 class="prompt-card__title">Préparer un plan de réduction des coûts</h3>
+                    <p class="prompt-card__context">Cost killing structurel</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Élabore un plan de réduction des coûts de [X%] sur 12 mois pour [département]. Base de coûts [X€]. Identifie 5 leviers avec : montant estimé, impact sur l'activité, délai de mise en oeuvre et risques associés.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Élabore un plan de réduction des coûts de [X%] sur 12 mois pour [département]. Base de coûts [X€]. Identifie 5 leviers avec : montant estimé, impact sur l&#39;activité, délai de mise en oeuvre et risques associés.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">⚙️</span>
+                <div>
+                    <h3 class="prompt-card__title">Analyser la rentabilité client</h3>
+                    <p class="prompt-card__context">Customer profitability analysis</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Analyse la rentabilité des clients suivants en tenant compte de tous les coûts (service, commercial, logistique) : [liste clients avec CA et coûts directs]. Identifie les clients à rentabilité négative et propose des actions : renégociation, abandon, upsell.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Analyse la rentabilité des clients suivants en tenant compte de tous les coûts (service, commercial, logistique) : [liste clients avec CA et coûts directs]. Identifie les clients à rentabilité négative et propose des actions : renégociation, abandon, upsell.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">⚙️</span>
+                <div>
+                    <h3 class="prompt-card__title">Construire un tableau de bord de gestion</h3>
+                    <p class="prompt-card__context">KPI et seuils d'alerte</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Conçois un tableau de bord de contrôle de gestion pour [activité]. Propose 10 KPI pertinents avec : formule de calcul, fréquence de mise à jour, seuil d'alerte (rouge/orange/vert) et responsable de chaque indicateur.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Conçois un tableau de bord de contrôle de gestion pour [activité]. Propose 10 KPI pertinents avec : formule de calcul, fréquence de mise à jour, seuil d&#39;alerte (rouge/orange/vert) et responsable de chaque indicateur.">Copier le prompt</button>
+        </div></div></div><div class="prompt-category" id="cat-fraude-and-audit"><h2 class="prompt-category__title">🛡️ Fraude & Audit</h2><div class="prompts-grid">
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🛡️</span>
+                <div>
+                    <h3 class="prompt-card__title">Détecter des anomalies comptables</h3>
+                    <p class="prompt-card__context">Analyse des risques de fraude</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Analyse cette balance comptable et identifie les anomalies potentielles : [données]. Vérifie : soldes inhabituels, transactions rondes répétées, comptes dormants réactivés, écritures en fin de période. Classe par niveau de risque.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Analyse cette balance comptable et identifie les anomalies potentielles : [données]. Vérifie : soldes inhabituels, transactions rondes répétées, comptes dormants réactivés, écritures en fin de période. Classe par niveau de risque.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🛡️</span>
+                <div>
+                    <h3 class="prompt-card__title">Préparer un plan d'audit interne</h3>
+                    <p class="prompt-card__context">Programme annuel d'audit</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Construis un programme d'audit interne annuel pour [entreprise, secteur, taille]. 8 zones de risque prioritaires avec fréquence, profondeur, ressources nécessaires et critères de sélection du premier audit à réaliser.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Construis un programme d&#39;audit interne annuel pour [entreprise, secteur, taille]. 8 zones de risque prioritaires avec fréquence, profondeur, ressources nécessaires et critères de sélection du premier audit à réaliser.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🛡️</span>
+                <div>
+                    <h3 class="prompt-card__title">Rédiger un rapport d'audit synthétique</h3>
+                    <p class="prompt-card__context">Conclusions et recommandations</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Rédige un rapport d'audit synthétique (1 page) à partir des constats suivants : [liste]. Structure : synthèse exécutive (3 lignes), constats majeurs (tableau risque + recommandation + priorité + responsable), plan d'action avec échéances.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Rédige un rapport d&#39;audit synthétique (1 page) à partir des constats suivants : [liste]. Structure : synthèse exécutive (3 lignes), constats majeurs (tableau risque + recommandation + priorité + responsable), plan d&#39;action avec échéances.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🛡️</span>
+                <div>
+                    <h3 class="prompt-card__title">Évaluer le contrôle interne (COSO)</h3>
+                    <p class="prompt-card__context">Grille d'évaluation</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Évalue le contrôle interne du processus [Order-to-Cash / Procure-to-Pay / Close] selon le référentiel COSO. Pour chaque composante : note /5 et points d'amélioration prioritaires. Format tableau avec plan d'action.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Évalue le contrôle interne du processus [Order-to-Cash / Procure-to-Pay / Close] selon le référentiel COSO. Pour chaque composante : note /5 et points d&#39;amélioration prioritaires. Format tableau avec plan d&#39;action.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🛡️</span>
+                <div>
+                    <h3 class="prompt-card__title">Analyser les risques de fraude fournisseurs</h3>
+                    <p class="prompt-card__context">Vendor fraud assessment</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Identifie les risques de fraude fournisseurs dans le processus achats de [entreprise] : [volume achats, nb fournisseurs, outils]. Liste les 5 schémas de fraude les plus courants dans ce contexte et les contrôles à mettre en place.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Identifie les risques de fraude fournisseurs dans le processus achats de [entreprise] : [volume achats, nb fournisseurs, outils]. Liste les 5 schémas de fraude les plus courants dans ce contexte et les contrôles à mettre en place.">Copier le prompt</button>
+        </div></div></div><div class="prompt-category" id="cat-financement"><h2 class="prompt-category__title">💼 Financement</h2><div class="prompts-grid">
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">💼</span>
+                <div>
+                    <h3 class="prompt-card__title">Préparer un dossier de financement bancaire</h3>
+                    <p class="prompt-card__context">Crédit moyen terme</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Rédige le résumé exécutif d'un dossier de financement bancaire : Montant [X€] | Durée [X ans] | Objet [décrire] | CA [X€] | EBITDA [X€] | Endettement actuel [X€]. Mets en avant les points forts, anticipe les objections et propose la structure optimale.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Rédige le résumé exécutif d&#39;un dossier de financement bancaire : Montant [X€] | Durée [X ans] | Objet [décrire] | CA [X€] | EBITDA [X€] | Endettement actuel [X€]. Mets en avant les points forts, anticipe les objections et propose la structure optimale.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">💼</span>
+                <div>
+                    <h3 class="prompt-card__title">Rédiger l'executive summary investisseur</h3>
+                    <p class="prompt-card__context">One-pager fundraising</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Rédige un executive summary d'une page pour [startup] en vue d'une levée [Série A/B] : problème, solution, traction (ARR [X], croissance [X%], clients [X]), marché adressable, équipe, utilisation des fonds [X€] et 3 raisons d'investir maintenant.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Rédige un executive summary d&#39;une page pour [startup] en vue d&#39;une levée [Série A/B] : problème, solution, traction (ARR [X], croissance [X%], clients [X]), marché adressable, équipe, utilisation des fonds [X€] et 3 raisons d&#39;investir maintenant.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">💼</span>
+                <div>
+                    <h3 class="prompt-card__title">Analyser les covenants bancaires</h3>
+                    <p class="prompt-card__context">Suivi des ratios</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Analyse le respect des covenants suivants et alerte sur les risques de breach : [liste covenants avec seuils]. Données actuelles : [chiffres]. Pour chaque covenant proche du seuil : marge de manoeuvre et actions préventives avant la prochaine revue bancaire.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Analyse le respect des covenants suivants et alerte sur les risques de breach : [liste covenants avec seuils]. Données actuelles : [chiffres]. Pour chaque covenant proche du seuil : marge de manoeuvre et actions préventives avant la prochaine revue bancaire.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">💼</span>
+                <div>
+                    <h3 class="prompt-card__title">Évaluer une structure de financement</h3>
+                    <p class="prompt-card__context">Dette vs capitaux propres</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Conseille sur la structure optimale pour financer [projet] de [X€] : compare dette bancaire, crédit-bail, obligations, augmentation de capital, subventions. Pour chaque option : coût réel, impact flexibilité, dilution, adéquation avec le profil de risque.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Conseille sur la structure optimale pour financer [projet] de [X€] : compare dette bancaire, crédit-bail, obligations, augmentation de capital, subventions. Pour chaque option : coût réel, impact flexibilité, dilution, adéquation avec le profil de risque.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">💼</span>
+                <div>
+                    <h3 class="prompt-card__title">Préparer un pitch deck financier</h3>
+                    <p class="prompt-card__context">Slides de données financières</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Structure 6 slides financières pour un pitch deck [levée/refinancement/banque]. Pour chaque slide : titre, message clé en 1 phrase, métriques à afficher et visualisations recommandées. Adapté pour [investisseurs VC / banquiers / board].</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Structure 6 slides financières pour un pitch deck [levée/refinancement/banque]. Pour chaque slide : titre, message clé en 1 phrase, métriques à afficher et visualisations recommandées. Adapté pour [investisseurs VC / banquiers / board].">Copier le prompt</button>
+        </div></div></div><div class="prompt-category" id="cat-communication-financière"><h2 class="prompt-category__title">📢 Communication Financière</h2><div class="prompts-grid">
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">📢</span>
+                <div>
+                    <h3 class="prompt-card__title">Rédiger un flash résultats trimestriel</h3>
+                    <p class="prompt-card__context">Communication interne rapide</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Rédige un flash résultats Q[X] de 150 mots pour communication interne. CA [X] | Croissance [X%] | EBITDA [X%] | Points forts [décrire] | Points d'attention [décrire]. Ton transparent et motivant. Inclus 1 citation du DAF.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Rédige un flash résultats Q[X] de 150 mots pour communication interne. CA [X] | Croissance [X%] | EBITDA [X%] | Points forts [décrire] | Points d&#39;attention [décrire]. Ton transparent et motivant. Inclus 1 citation du DAF.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">📢</span>
+                <div>
+                    <h3 class="prompt-card__title">Vulgariser un concept financier</h3>
+                    <p class="prompt-card__context">Pédagogie finance pour non-financiers</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Explique le concept de [EBITDA / free cash flow / BFR / covenant / goodwill] à un non-financier en 150 mots max. Utilise une analogie simple, donne 1 exemple chiffré concret et termine par ce que cela signifie concrètement pour eux.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Explique le concept de [EBITDA / free cash flow / BFR / covenant / goodwill] à un non-financier en 150 mots max. Utilise une analogie simple, donne 1 exemple chiffré concret et termine par ce que cela signifie concrètement pour eux.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">📢</span>
+                <div>
+                    <h3 class="prompt-card__title">Préparer le discours du DAF au CODIR</h3>
+                    <p class="prompt-card__context">Présentation mensuelle</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Rédige l'introduction verbale (2 minutes) du DAF pour les résultats du mois [MOIS] au CODIR : [chiffres]. Ton confiant et factuel. Structure : constat en 1 phrase &gt; 3 points clés &gt; transition vers les décisions à prendre.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Rédige l&#39;introduction verbale (2 minutes) du DAF pour les résultats du mois [MOIS] au CODIR : [chiffres]. Ton confiant et factuel. Structure : constat en 1 phrase > 3 points clés > transition vers les décisions à prendre.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">📢</span>
+                <div>
+                    <h3 class="prompt-card__title">Rédiger une note de synthèse financière</h3>
+                    <p class="prompt-card__context">Briefing pour direction</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Rédige une note de synthèse financière d'1 page sur [sujet] pour [CEO / board]. Structure : contexte (3 lignes) &gt; analyse (5 bullets) &gt; risques (3 bullets) &gt; recommandation (1 paragraphe décisionnel).</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Rédige une note de synthèse financière d&#39;1 page sur [sujet] pour [CEO / board]. Structure : contexte (3 lignes) > analyse (5 bullets) > risques (3 bullets) > recommandation (1 paragraphe décisionnel).">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">📢</span>
+                <div>
+                    <h3 class="prompt-card__title">Répondre aux questions d'un journaliste</h3>
+                    <p class="prompt-card__context">Media training financier</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Prépare 5 questions-réponses difficiles qu'un journaliste pourrait poser sur [résultats/situation] et les meilleures réponses pour [dirigeant]. Ton : direct, transparent, sans langue de bois. Questions typiques sur : rentabilité, endettement, perspectives.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Prépare 5 questions-réponses difficiles qu&#39;un journaliste pourrait poser sur [résultats/situation] et les meilleures réponses pour [dirigeant]. Ton : direct, transparent, sans langue de bois. Questions typiques sur : rentabilité, endettement, perspectives.">Copier le prompt</button>
+        </div></div></div><div class="prompt-category" id="cat-réglementation"><h2 class="prompt-category__title">⚖️ Réglementation</h2><div class="prompts-grid">
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">⚖️</span>
+                <div>
+                    <h3 class="prompt-card__title">Analyser l'impact de l'AI Act sur la finance</h3>
+                    <p class="prompt-card__context">Conformité IA</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Analyse l'impact du règlement AI Act sur les systèmes IA utilisés dans la fonction finance de [entreprise] : [lister les outils]. Pour chaque outil : classification de risque, obligations de conformité et planning d'action.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Analyse l&#39;impact du règlement AI Act sur les systèmes IA utilisés dans la fonction finance de [entreprise] : [lister les outils]. Pour chaque outil : classification de risque, obligations de conformité et planning d&#39;action.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">⚖️</span>
+                <div>
+                    <h3 class="prompt-card__title">Préparer la transition IFRS 18</h3>
+                    <p class="prompt-card__context">Nouvelle norme de présentation</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Explique les changements d'IFRS 18 (en vigueur 2027) et leur impact sur les états financiers de [entreprise, secteur]. 5 ajustements comptables prioritaires, données supplémentaires à collecter et planning de transition recommandé.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Explique les changements d&#39;IFRS 18 (en vigueur 2027) et leur impact sur les états financiers de [entreprise, secteur]. 5 ajustements comptables prioritaires, données supplémentaires à collecter et planning de transition recommandé.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">⚖️</span>
+                <div>
+                    <h3 class="prompt-card__title">Réaliser une revue de conformité fiscale</h3>
+                    <p class="prompt-card__context">Tax compliance review</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Réalise une revue de conformité fiscale rapide pour [entreprise] : TVA, IS, CET, transfert pricing si applicable. Identifie les risques de redressement, les points à sécuriser avant le prochain contrôle et les opportunités d'optimisation.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Réalise une revue de conformité fiscale rapide pour [entreprise] : TVA, IS, CET, transfert pricing si applicable. Identifie les risques de redressement, les points à sécuriser avant le prochain contrôle et les opportunités d&#39;optimisation.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">⚖️</span>
+                <div>
+                    <h3 class="prompt-card__title">Analyser l'impact financier d'un changement réglementaire</h3>
+                    <p class="prompt-card__context">Regulatory impact assessment</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Analyse l'impact financier du changement réglementaire suivant sur [entreprise] : [décrire]. Quantifie : coût de mise en conformité, impact P&amp;L, investissements nécessaires et timeline de mise en oeuvre.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Analyse l&#39;impact financier du changement réglementaire suivant sur [entreprise] : [décrire]. Quantifie : coût de mise en conformité, impact P&amp;L, investissements nécessaires et timeline de mise en oeuvre.">Copier le prompt</button>
+        </div></div></div><div class="prompt-category" id="cat-outils-and-ia"><h2 class="prompt-category__title">🤖 Outils & IA</h2><div class="prompts-grid">
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🤖</span>
+                <div>
+                    <h3 class="prompt-card__title">Rédiger un cahier des charges outil FP&A</h3>
+                    <p class="prompt-card__context">Sélection d'une solution de planification</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Rédige un cahier des charges pour sélectionner un outil FP&amp;A/CPM pour [entreprise : taille, ERP, équipe X, budget X€]. Fonctionnalités must-have vs nice-to-have, critères d'intégration, exigences sécurité/RGPD, critères d'évaluation vendors.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Rédige un cahier des charges pour sélectionner un outil FP&amp;A/CPM pour [entreprise : taille, ERP, équipe X, budget X€]. Fonctionnalités must-have vs nice-to-have, critères d&#39;intégration, exigences sécurité/RGPD, critères d&#39;évaluation vendors.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🤖</span>
+                <div>
+                    <h3 class="prompt-card__title">Évaluer le ROI d'un projet d'automatisation</h3>
+                    <p class="prompt-card__context">Business case IA pour la finance</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Construis le business case pour automatiser [processus finance]. Situation actuelle : [X heures/mois x X personnes x coût horaire X€]. Coût solution : [X€ + X€/an]. Calcule ROI, payback period, coûts cachés et bénéfices qualitatifs.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Construis le business case pour automatiser [processus finance]. Situation actuelle : [X heures/mois x X personnes x coût horaire X€]. Coût solution : [X€ + X€/an]. Calcule ROI, payback period, coûts cachés et bénéfices qualitatifs.">Copier le prompt</button>
+        </div>
+        <div class="prompt-card">
+            <div class="prompt-card__header">
+                <span class="prompt-card__emoji">🤖</span>
+                <div>
+                    <h3 class="prompt-card__title">Créer un agent IA pour la finance</h3>
+                    <p class="prompt-card__context">Prompt système pour agent financier</p>
+                </div>
+            </div>
+            <div class="prompt-card__body"><code class="prompt-card__code">Rédige un prompt système complet pour configurer un agent IA spécialisé en [analyse financière / clôture / reporting CSRD]. Inclus : rôle et expertise, contraintes (ne jamais inventer de chiffres), format de réponse, 3 exemples de requêtes types.</code></div>
+            <button class="prompt-card__copy" onclick="copyPrompt(this)" data-prompt="Rédige un prompt système complet pour configurer un agent IA spécialisé en [analyse financière / clôture / reporting CSRD]. Inclus : rôle et expertise, contraintes (ne jamais inventer de chiffres), format de réponse, 3 exemples de requêtes types.">Copier le prompt</button>
+        </div></div></div>
+        <div style="text-align:center;padding:3rem 0;border-top:1px solid #e2e8f0;margin-top:2rem;">
+            <p style="color:#64748b;margin-bottom:1.5rem;">Ces prompts vous ont &eacute;t&eacute; utiles ? Recevez-en de nouveaux chaque semaine dans FinVox.</p>
+            <a href="https://finvox.beehiiv.com/subscribe" class="btn btn--primary">S&#39;abonner gratuitement &rarr;</a>
+        </div>
+    </div>
+
+    <footer class="footer"><div class="container"><div class="footer__bottom">
+        <p>&copy; 2026 FinVox</p>
+        <p><a href="index.html">&larr; Retour &agrave; l&#39;accueil</a></p>
+    </div></div></footer>
+
+    <script>
+    function copyPrompt(btn) {
+        const raw = btn.getAttribute("data-prompt");
+        const txt = raw.replace(/&#39;/g,"'").replace(/&quot;/g,""").replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">");
+        navigator.clipboard.writeText(txt).then(()=>{
+            btn.textContent="✓ Copié !";
+            btn.classList.add("copied");
+            setTimeout(()=>{btn.textContent="Copier le prompt";btn.classList.remove("copied");},2000);
+        });
+    }
+    </script>
+</body>
+</html>

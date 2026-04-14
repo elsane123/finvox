@@ -1,0 +1,518 @@
+[
+  {
+    "terme": "AI Act",
+    "categorie": "Réglementation & Conformité",
+    "definition": "Le règlement européen sur l'intelligence artificielle, établissant des règles harmonisées pour le développement et l'utilisation des systèmes d'IA dans l'Union européenne.",
+    "frequence": 134,
+    "slug": "ai-act",
+    "contextes": [
+      "isez pour personnaliser le style selon votre cabinet.  ---  *Prochaine semaine : prompts spécialisés en droit social et compliance RGPD.*  ---  ## ⚖️ AI Act Tracker  # 🇪🇺 AI Act Tracker  ## Calendrier de mise en œuvre : où en sommes-nous ?  Nous sommes actuellement dans la phase cruciale d'application pro",
+      "er le style selon votre cabinet.  ---  *Prochaine semaine : prompts spécialisés en droit social et compliance RGPD.*  ---  ## ⚖️ AI Act Tracker  # 🇪🇺 AI Act Tracker  ## Calendrier de mise en œuvre : où en sommes-nous ?  Nous sommes actuellement dans la phase cruciale d'application progressive de l'AI Act."
+    ]
+  },
+  {
+    "terme": "RGPD",
+    "categorie": "Réglementation & Conformité",
+    "definition": "Règlement Général sur la Protection des Données. Encadre la collecte et le traitement des données personnelles au sein de l'UE.",
+    "frequence": 99,
+    "slug": "rgpd",
+    "contextes": [
+      "d de personnes. Cette brèche massive soulève des questions cruciales sur la responsabilité des prestataires de conformité et l'extraterritorialité du RGPD. Pour les juristes, c'est un cas d'école sur les risques de sous-traitance internationale et l'importance des clauses de sécurité dans les contrats d",
+      "la complexité. Relisez pour personnaliser le style selon votre cabinet.  ---  *Prochaine semaine : prompts spécialisés en droit social et compliance RGPD.*  ---  ## ⚖️ AI Act Tracker  # 🇪🇺 AI Act Tracker  ## Calendrier de mise en œuvre : où en sommes-nous ?  Nous sommes actuellement dans la phase cruci"
+    ]
+  },
+  {
+    "terme": "ChatGPT",
+    "categorie": "Modèles & Technologies IA",
+    "definition": "Interface conversationnelle développée par OpenAI basée sur les modèles GPT. L'un des premiers outils IA massivement adoptés par les professionnels du droit.",
+    "frequence": 77,
+    "slug": "chatgpt",
+    "contextes": [
+      "cialiste-du-kyc-aurait-expose-les-donnees-d1-milliard-de-personnes/)  ## ⚖️ OpenAI face à un dilemme éthique après les conversations d'un tireur avec ChatGPT  Les employés d'OpenAI avaient détecté des conversations préoccupantes avec ChatGPT de la part de Jesse Van Rootselaar, mois avant qu'elle ne commett",
+      "ace à un dilemme éthique après les conversations d'un tireur avec ChatGPT  Les employés d'OpenAI avaient détecté des conversations préoccupantes avec ChatGPT de la part de Jesse Van Rootselaar, mois avant qu'elle ne commette une fusillade au Canada. L'entreprise a débattu d'alerter la police mais ne l'a pa"
+    ]
+  },
+  {
+    "terme": "legal tech",
+    "categorie": "Outils Juridiques IA",
+    "definition": "Secteur d'activité combinant technologie et services juridiques. Inclut les outils d'automatisation, de recherche et d'analyse juridique basés sur l'IA.",
+    "frequence": 33,
+    "slug": "legal-tech",
+    "contextes": [
+      "//www.journaldunet.com/intelligence-artificielle/1549445-agents-ia-en-entreprise-l-execution-s-automatise-la-responsabilite-reste-introuvable/)  ## 💰 Legal Tech : 2,3 milliards levés au Q1 2026, mais la concentration s'accentue  Le secteur de la legal tech maintient sa dynamique avec 2,34 milliards de dollars",
+      "utomatise-la-responsabilite-reste-introuvable/)  ## 💰 Legal Tech : 2,3 milliards levés au Q1 2026, mais la concentration s'accentue  Le secteur de la legal tech maintient sa dynamique avec 2,34 milliards de dollars levés sur 103 deals au premier trimestre 2026. Cependant, cette apparente vitalité masque une c"
+    ]
+  },
+  {
+    "terme": "LLM",
+    "categorie": "Modèles & Technologies IA",
+    "definition": "Large Language Model. Modèle de traitement du langage de grande taille, entraîné sur des corpus massifs de texte (ex: GPT-4, Claude, Mistral).",
+    "frequence": 31,
+    "slug": "llm",
+    "contextes": [
+      "[Lire l'article](https://next.ink/225142/la-chancellerie-et-viginum-accelerent-la-lutte-contre-les-manipulations-de-linformation/)  ## 🧠 Course aux LLM : Claude Sonnet 4.6 et Gemini 3.1 Pro boostent le raisonnement juridique  Anthropic et Google dévoilent leurs nouveaux modèles avec des capacités de",
+      "itions de reformulation  Clause à analyser : [INSÉRER LA CLAUSE]  Structure ta réponse en sections claires avec des recommandations concrètes. ```  **LLM recommandé :** Claude 3.5 Sonnet (excellent pour l'analyse juridique nuancée)  **Résultat attendu :** Une analyse structurée identifiant les risques"
+    ]
+  },
+  {
+    "terme": "few-shot",
+    "categorie": "Modèles & Technologies IA",
+    "definition": "Technique de prompt engineering consistant à fournir quelques exemples dans l'invite pour guider le modèle vers le format ou style de réponse souhaité.",
+    "frequence": 30,
+    "slug": "few-shot",
+    "contextes": [
+      "ontinue.  ---  *© 2026 LexVox — Newsletter IA pour Juristes*  # LexVox Blog — Article SEO | 14 mars 2026  > Thème : Prompt engineering juridique : le few-shot learning appliqué au droit > Veille source : 2026-03-14 > Nombre de mots : ~1784  ---  ## Métadonnées SEO - **Titre** : Prompt Engineering Juridique",
+      "qué au droit > Veille source : 2026-03-14 > Nombre de mots : ~1784  ---  ## Métadonnées SEO - **Titre** : Prompt Engineering Juridique : Maîtriser le Few-Shot Learning - **Meta description** : Découvrez le few-shot learning pour optimiser vos prompts juridiques. Guide complet avec exemples pratiques pour av"
+    ]
+  },
+  {
+    "terme": "IA générative",
+    "categorie": "Modèles & Technologies IA",
+    "definition": "Systèmes d'intelligence artificielle capables de créer du contenu original (texte, images, code) à partir de prompts, tels que ChatGPT ou Claude.",
+    "frequence": 26,
+    "slug": "ia-generative",
+    "contextes": [
+      "nt en sophistication, 2026 s'annonce comme une année charnière pour notre profession.  **La semaine prochaine**, nous explorerons en détail comment l'IA générative révolutionne la due diligence en M&A, avec un focus sur les nouveaux risques de responsabilité pour les conseils. Nous testerons également un outil p",
+      "'écosystème de contenu IA de mauvaise qualité. Cette prise de position reflète une prise de conscience croissante des risques réputationnels liés à l'IA générative. Pour les directions juridiques, c'est un rappel que la qualité du contenu généré par IA engage la responsabilité de l'entreprise. Les politiques d'u"
+    ]
+  },
+  {
+    "terme": "propriété intellectuelle",
+    "categorie": "Branches du Droit concernées",
+    "definition": "Branche du droit protégeant les créations de l'esprit. L'IA soulève des questions inédites : titularité du droit d'auteur sur les œuvres générées, protection des modèles IA.",
+    "frequence": 16,
+    "slug": "propriete-intellectuelle",
+    "contextes": [
+      "e la semaine** : Créez des versions personnalisées de ces prompts en ajoutant des instructions spécifiques à votre domaine d'expertise (droit social, propriété intellectuelle, etc.).*  ---  ## ⚖️ AI Act Tracker  # AI Act Tracker  ## 📅 Où en sommes-nous ?  Nous entrons dans la **phase critique d'application** de l'AI Act. D",
+      "ce/Date - Partie responsable - Niveau de risque (Faible/Moyen/Élevé)  Concentre-toi sur : obligations principales, échéances, pénalités, résiliation, propriété intellectuelle. ```  **2. Uploadez votre contrat** Glissez-déposez votre PDF directement dans la conversation ChatGPT (fonction disponible depuis janvier 2026).  **"
+    ]
+  },
+  {
+    "terme": "automatisation juridique",
+    "categorie": "Pratique Professionnelle IA",
+    "definition": "Utilisation de l'IA pour automatiser des tâches répétitives dans la pratique du droit : rédaction de clauses, recherche jurisprudentielle, suivi de procédures.",
+    "frequence": 14,
+    "slug": "automatisation-juridique",
+    "contextes": [
+      "artups-legal-tech-2026 - **Mot-clé principal** : RGPD IA legal tech - **Mots-clés secondaires** : intelligence artificielle droit, legal tech France, automatisation juridique - **Temps de lecture** : 8 min  ---  # RGPD et IA : Guide complet pour les startups legal tech en 2026  L'affaire IDMerit, qui a exposé les données d",
+      "ures judiciaires, conseils juridiques confidentiels, informations sur des litiges. Lorsqu'une startup développe un **ChatGPT avocat** ou un outil d'**automatisation juridique**, elle manipule des informations hautement sensibles qui nécessitent un niveau de protection maximal.  La CNIL a publié en janvier 2026 de nouvelles"
+    ]
+  },
+  {
+    "terme": "RAG",
+    "categorie": "Modèles & Technologies IA",
+    "definition": "Retrieval Augmented Generation. Technique combinant la recherche documentaire et la génération de texte par LLM pour améliorer la précision des réponses sur des données spécifiques.",
+    "frequence": 13,
+    "slug": "rag",
+    "contextes": [
+      "u'ont consacré les juges de la Cour suprême des États-Unis à leurs querelles internes dans leur dernière décision majeure. Un record qui illustre la fragmentation croissante de la plus haute juridiction américaine, où les opinions dissidentes et concurrentes se multiplient au détriment de la cohérence",
+      "facilement différentes solutions sans vendor lock-in. Une évolution cruciale pour les DSI juridiques qui jonglent actuellement avec des écosystèmes fragmentés.  [Source: LexBlog](https://www.lexblog.com/2026/03/15/anthropics-matt-samuels-and-den-delimarsky-claude-mcp-building-the-usb-c-for-the-legal-t"
+    ]
+  },
+  {
+    "terme": "secret professionnel",
+    "categorie": "Pratique Professionnelle IA",
+    "definition": "Obligation déontologique de confidentialité des avocats. Son respect lors de l'utilisation d'outils IA (envoi de données à des serveurs tiers) est un enjeu central pour le barreau.",
+    "frequence": 13,
+    "slug": "secret-professionnel",
+    "contextes": [
+      "Votre dose hebdomadaire d'intelligence artificielle appliquée au droit.  ---  ## 🔍 Veille IA & Droit  # Veille IA & Droit — Top de la semaine  ## 🏛️ Secret professionnel et IA : un précédent américain qui fait jurisprudence  L'affaire *US v. Heppner* marque un tournant dans la protection du secret professionnel à l'èr",
+      "## 🏛️ Secret professionnel et IA : un précédent américain qui fait jurisprudence  L'affaire *US v. Heppner* marque un tournant dans la protection du secret professionnel à l'ère de l'IA. Le juge fédéral Jed S. Rakoff a refusé d'étendre le privilège avocat-client aux documents générés via ChatGPT public par un prévenu."
+    ]
+  },
+  {
+    "terme": "risque élevé",
+    "categorie": "Réglementation & Conformité",
+    "definition": "Catégorie de l'AI Act désignant les systèmes d'IA susceptibles d'avoir un impact significatif sur la sécurité ou les droits fondamentaux (ex: justice, recrutement, santé).",
+    "frequence": 12,
+    "slug": "risque-eleve",
+    "contextes": [
+      "E ET SECTEUR D'ACTIVITÉ] ```  **LLM recommandé :** Claude 3.5 Sonnet (excellente analyse structurée des documents longs)  **Exemple de résultat :** *\"Risque élevé identifié : absence de clause de limitation de responsabilité. Conséquence : exposition illimitée aux dommages indirects. Recommandation : ajouter un",
+      "ser les chances de succès d'un dossier, prédire l'issue d'une procédure ou recommander une stratégie contentieuse constitue désormais un traitement à risque élevé. Ces activités nécessitent une analyse d'impact sur la protection des données (AIPD) obligatoire, même pour une jeune startup.  ### Les sanctions qui"
+    ]
+  },
+  {
+    "terme": "Harvey",
+    "categorie": "Outils Juridiques IA",
+    "definition": "Assistant IA spécialisé pour les cabinets d'avocats, développé en partenariat avec des grands cabinets internationaux. Permet la recherche juridique, la rédaction et l'analyse de contrats.",
+    "frequence": 12,
+    "slug": "harvey",
+    "contextes": [
+      "tice.com/articles/plainte-classee-sans-suite-faut-tenter-citation-directe,56447.html)  ---  ## 🛠️ Outil de la semaine  ## 🔧 Outil de la semaine  ### [Harvey AI](https://harvey.ai/) - Assistant juridique IA pour cabinets d'avocats  Harvey AI s'impose comme l'une des plateformes d'intelligence artificielle",
+      "lainte-classee-sans-suite-faut-tenter-citation-directe,56447.html)  ---  ## 🛠️ Outil de la semaine  ## 🔧 Outil de la semaine  ### [Harvey AI](https://harvey.ai/) - Assistant juridique IA pour cabinets d'avocats  Harvey AI s'impose comme l'une des plateformes d'intelligence artificielle les plus sophistiqu"
+    ]
+  },
+  {
+    "terme": "analyse contractuelle",
+    "categorie": "Concepts Juridiques IA",
+    "definition": "Utilisation de l'IA pour examiner, comparer et extraire des informations clés de contrats juridiques. Réduit significativement le temps de revue documentaire.",
+    "frequence": 12,
+    "slug": "analyse-contractuelle",
+    "contextes": [
+      "ChatGPT pour les juristes exigeants. Sa capacité à traiter de longs documents et son approche méthodique en font un outil particulièrement adapté à l'analyse contractuelle et à la recherche juridique. Le principal frein reste son écosystème moins développé que celui d'OpenAI, mais pour un usage professionnel pur, Claude",
+      "juridique et sa gestion nuancée des documents longs - des atouts précieux pour les juristes francophones.  ### Cas d'usage concret pour un juriste  **Analyse contractuelle approfondie** : Uploadez un contrat de 50 pages et demandez à Claude d'identifier les clauses problématiques, de proposer des amendements ou de compa"
+    ]
+  },
+  {
+    "terme": "prompt engineering",
+    "categorie": "Modèles & Technologies IA",
+    "definition": "Art de formuler des instructions précises et structurées pour obtenir des réponses optimales d'un modèle de langage. Compétence clé pour les juristes utilisant l'IA.",
+    "frequence": 11,
+    "slug": "prompt-engineering",
+    "contextes": [
+      "2020 et 2026 concernant la responsabilité des dirigeants en cas de procédure collective, en précisant les critères de mise en jeu.\"  La technique du \"prompt engineering\" juridique se développe comme une compétence à part entière. Elle implique de structurer les demandes selon la logique juridique, d'utiliser le vocab",
+      "site un investissement significatif en formation. Les équipes doivent comprendre les capacités et limitations des outils, maîtriser les techniques de prompt engineering, et intégrer les considérations déontologiques dans leur usage quotidien.  Les programmes de formation efficaces combinent théorie et pratique. Ils i"
+    ]
+  },
+  {
+    "terme": "données personnelles",
+    "categorie": "Concepts Juridiques IA",
+    "definition": "Toute information permettant d'identifier directement ou indirectement une personne physique. Leur traitement par des systèmes IA est encadré strictement par le RGPD.",
+    "frequence": 10,
+    "slug": "donnees-personnelles",
+    "contextes": [
+      "de personnes, dont 52 millions de Français  Une faille béante chez IDMerit, spécialiste californien de la vérification d'identité (KYC), a exposé les données personnelles d'environ un milliard de personnes. Cette brèche massive soulève des questions cruciales sur la responsabilité des prestataires de conformité et l'ex",
+      "lution technique a des implications contractuelles importantes : multiplication des intervenants, chaînes de responsabilité complexes, et gestion des données personnelles entre plusieurs systèmes. Les juristes d'entreprise doivent adapter leurs audits de sécurité et leurs clauses de sous-traitance pour couvrir ces arch"
+    ]
+  },
+  {
+    "terme": "tokens",
+    "categorie": "Modèles & Technologies IA",
+    "definition": "Unité de traitement des LLM (environ 3/4 d'un mot). La fenêtre contextuelle d'un modèle (mesurée en tokens) détermine la longueur des documents qu'il peut analyser en une fois.",
+    "frequence": 8,
+    "slug": "tokens",
+    "contextes": [
+      "---|----------------------| | Excellente compréhension contextuelle | Pas de recherche web en temps réel | | Analyse de documents longs (jusqu'à 200k tokens) | Interface moins intuitive que ChatGPT | | Raisonnement structuré et nuancé | Pas d'intégrations tierces développées | | Respect des nuances du dro",
+      "-------|---------------------| | Excellent en français juridique | Pas d'accès aux bases de données légales | | Gestion de très longs documents (200k tokens) | Connaissance juridique française limitée | | Raisonnement structuré et nuancé | Pas de mise à jour temps réel | | Interface intuitive | Limitation"
+    ]
+  },
+  {
+    "terme": "due diligence IA",
+    "categorie": "Concepts Juridiques IA",
+    "definition": "Processus d'audit et de vérification approfondie des systèmes d'IA avant acquisition, investissement ou mise en conformité. Émerge comme nouvelle pratique en droit des affaires.",
+    "frequence": 7,
+    "slug": "due-diligence-ia",
+    "contextes": [
+      "e la volonté européenne d'exporter ses standards de gouvernance de l'IA.  ## ⚖️ Impact concret pour les juristes  ### Pour les avocats d'affaires - **Due diligence IA** : Intégrer systématiquement l'audit de conformité AI Act dans vos missions M&A - **Contrats technologiques** : Prévoir des clauses spécifiques de r",
+      "Mesures de cybersécurité renforcées   - Rapport annuel de transparence  ## Impact concret pour les juristes  ### Pour les **avocats d'affaires** - **Due diligence IA** : Intégrer l'analyse de conformité AI Act dans les audits d'acquisition - **Contrats tech** : Réviser les clauses de responsabilité et garanties de"
+    ]
+  },
+  {
+    "terme": "biais algorithmique",
+    "categorie": "Concepts Juridiques IA",
+    "definition": "Discriminations ou erreurs systématiques introduites par un algorithme d'IA, souvent issues de données d'entraînement non représentatives. Enjeu juridique majeur en droit de la non-discrimination.",
+    "frequence": 6,
+    "slug": "biais-algorithmique",
+    "contextes": [
+      "xion devient urgente alors que certains tribunaux expérimentent des assistants IA pour évaluer la crédibilité des témoins, risquant de reproduire des biais algorithmiques sur des situations psychologiquement complexes.  [Source: Village de la Justice](https://www.village-justice.com/articles/mensonge-deni-memoire-trau",
+      "ur les cabinets, cela implique de former les avocats et juristes aux bonnes pratiques d'utilisation de l'IA, aux limites des outils et aux risques de biais algorithmiques.  La surveillance continue des performances des systèmes d'IA utilisés est également requise. Les cabinets doivent mettre en place des procédures de"
+    ]
+  },
+  {
+    "terme": "legaltech",
+    "categorie": "Outils Juridiques IA",
+    "definition": "Contraction de \"legal technology\". Désigne les startups et solutions technologiques transformant la pratique du droit par l'IA et l'automatisation.",
+    "frequence": 5,
+    "slug": "legaltech",
+    "contextes": [
+      "t que des \"wrappers\" - des surcouches superficielles autour de modèles existants sans véritable innovation. Cette statistique éclaire le marché de la LegalTech : beaucoup d'acteurs se contentent d'habiller ChatGPT ou Claude en solution juridique. Les cabinets doivent apprendre à distinguer les vraies innovat",
+      "ervé  Les cabinets rapportent une **explosion des demandes de conseil** en conformité IA depuis janvier 2026. Les secteurs les plus sollicités :  - **LegalTech** : Les éditeurs de solutions juridiques IA peinent à finaliser leurs évaluations de conformité - **RH Tech** : Systèmes de recrutement et d'évaluati"
+    ]
+  },
+  {
+    "terme": "données d'entraînement",
+    "categorie": "Concepts Juridiques IA",
+    "definition": "Corpus de données utilisé pour entraîner un modèle d'IA. Leur origine, qualité et légalité soulèvent des questions de propriété intellectuelle et de protection des données.",
+    "frequence": 5,
+    "slug": "donnees-d-entrainement",
+    "contextes": [
+      "nt la manière dont vos algorithmes traitent les informations personnelles.  La première étape consiste à implémenter une pseudonymisation robuste des données d'entraînement. Contrairement à l'anonymisation complète, la pseudonymisation permet de conserver l'utilité des données pour l'entraînement tout en réduisant les ri",
+      "modifier ses conditions d'utilisation en 2025 suite aux pressions réglementaires européennes, mais des zones grises subsistent sur le traitement des données d'entraînement.  Négociez des Data Processing Agreements (DPA) renforcés avec tous vos sous-traitants. Ces contrats doivent spécifier précisément les finalités de t"
+    ]
+  },
+  {
+    "terme": "conformité IA",
+    "categorie": "Réglementation & Conformité",
+    "definition": "Ensemble des obligations légales et réglementaires que doivent respecter les entreprises qui développent ou utilisent des systèmes d'intelligence artificielle.",
+    "frequence": 4,
+    "slug": "conformite-ia",
+    "contextes": [
+      "nsibilisation aux obligations spécifiques de l'AI Act (distinctes du RGPD) - **Contrats fournisseurs** : révision des clauses de responsabilité et de conformité IA  ## 🔍 Focus : Leçons de l'affaire ChatGPT-Canada  L'actualité récente autour des conversations préoccupantes d'un suspect avec ChatGPT au Canada illu",
+      "la période transitoire pour les systèmes existants  ## 📊 Impact concret observé  Les cabinets rapportent une **explosion des demandes de conseil** en conformité IA depuis janvier 2026. Les secteurs les plus sollicités :  - **LegalTech** : Les éditeurs de solutions juridiques IA peinent à finaliser leurs évaluati"
+    ]
+  },
+  {
+    "terme": "prompt juridique",
+    "categorie": "Pratique Professionnelle IA",
+    "definition": "Instruction spécifiquement formulée pour un LLM dans un contexte juridique. La maîtrise des prompts juridiques est une compétence émergente pour les avocats et juristes.",
+    "frequence": 4,
+    "slug": "prompt-juridique",
+    "contextes": [
+      "tions payantes pour vos besoins de rédaction, d'analyse contractuelle et de recherche juridique.  ---  ## 🎓 Tuto Express  # Tuto Express  ## Créer un prompt juridique parfait en 3 étapes  **Objectif :** Transformer vos questions floues en prompts précis qui donnent des réponses exploitables avec ChatGPT, Claude ou",
+      ". Cette architecture en silos limite les risques de fuite massive comme celle subie par IDMerit.  ### Chiffrement et tokenisation avancée  Pour les **prompt juridique** contenant des informations sensibles, implémentez un système de tokenisation dynamique. Chaque requête utilisateur est décomposée en tokens anonyme"
+    ]
+  },
+  {
+    "terme": "hallucination",
+    "categorie": "Modèles & Technologies IA",
+    "definition": "Phénomène par lequel un modèle d'IA génère des informations fausses mais présentées avec assurance. Risque majeur en contexte juridique.",
+    "frequence": 3,
+    "slug": "hallucination",
+    "contextes": [
+      "samuels-and-den-delimarsky-claude-mcp-building-the-usb-c-for-the-legal-tech-stack/)  ## ⚖️ Un procureur américain démissionne après avoir utilisé des hallucinations IA  Un procureur fédéral américain (AUSA) a préféré démissionner plutôt que de voir son bureau sanctionné par un juge après avoir déposé des documen",
+      "r fédéral américain (AUSA) a préféré démissionner plutôt que de voir son bureau sanctionné par un juge après avoir déposé des documents contenant des hallucinations d'IA et fait des déclarations trompeuses sur leur origine. Cette affaire illustre parfaitement les risques déontologiques de l'usage non maîtrisé de"
+    ]
+  },
+  {
+    "terme": "Legalon",
+    "categorie": "Outils Juridiques IA",
+    "definition": "Outil d'IA juridique pour l'analyse et la révision de contrats. Utilise des modèles de langage spécialisés pour identifier les risques contractuels.",
+    "frequence": 3,
+    "slug": "legalon",
+    "contextes": [
+      "de publication :** 21 mars 2026  ## Introduction L'IA transforme la pratique du droit.  ## Analyse des outils - Claude : prompts juridiques avancés - LegalOn GPT 5.4 : revue des nouveautés  ## Étude de cas Intégration dans un workflow de cabinet.  ## Risques et garde‑fous Confidentialité, biais, responsabi",
+      "nt autour du secret professionnel et de la responsabilité juridique des décisions assistées.  ## État des lieux des outils IA juridiques en 2026  ### LegalOn GPT 5.4 : la référence en révision de contrats Avec sa base de connaissances juridiques massives et sa capacité à comprendre le contexte métier, Lega"
+    ]
+  },
+  {
+    "terme": "explicabilité",
+    "categorie": "Concepts Juridiques IA",
+    "definition": "Capacité d'un système d'IA à justifier ses décisions de manière compréhensible pour l'humain. Droit à l'explication prévu par le RGPD pour les décisions automatisées.",
+    "frequence": 3,
+    "slug": "explicabilite",
+    "contextes": [
+      "un outil d'aide à la rédaction juridique, cela signifie pouvoir expliquer pourquoi l'IA a suggéré telle clause plutôt qu'une autre. Cette exigence d'explicabilité, renforcée par l'AI Act, nécessite des investissements techniques significatifs.  Implémentez un système de versioning de vos modèles couplé à un log",
+      "ier les innovations pertinentes et d'adapter les pratiques en conséquence.  ## Enjeux Éthiques et Responsabilité Professionnelle  ### Transparence et Explicabilité des Décisions  L'utilisation de l'IA en droit soulève des questions fondamentales sur la transparence des processus décisionnels. Les clients ont le"
+    ]
+  },
+  {
+    "terme": "rédaction assistée",
+    "categorie": "Pratique Professionnelle IA",
+    "definition": "Utilisation d'outils IA pour aider à la rédaction d'actes juridiques, contrats, conclusions ou consultations. Améliore la productivité sans remplacer le jugement du juriste.",
+    "frequence": 3,
+    "slug": "redaction-assistee",
+    "contextes": [
+      "ion judiciaire, les systèmes de prédiction de jurisprudence et certaines plateformes d'automatisation juridique. Les chatbots juridiques et outils de rédaction assistée peuvent également être concernés selon leur utilisation.  ### Comment un cabinet d'avocats peut-il vérifier la conformité de ses outils d'IA ?  Le ca",
+      "édictive permet aux avocats de mieux préparer leurs plaidoiries et d'anticiper les arguments adverses.  ## Solutions d'automatisation juridique et de rédaction assistée  L'automatisation juridique atteint en 2026 un niveau de sophistication remarquable. **LegalDraft AI** s'impose comme la référence en matière de réda"
+    ]
+  },
+  {
+    "terme": "DMA",
+    "categorie": "Réglementation & Conformité",
+    "definition": "Digital Markets Act. Règlement européen sur les marchés numériques visant à réguler les plateformes dominantes utilisant l'IA.",
+    "frequence": 2,
+    "slug": "dma",
+    "contextes": [
+      "ME de 50 salariés souhaite licencier pour insuffisance professionnelle un cadre en CDI présent depuis 3 ans, sans faute disciplinaire. Fournis une roadmap en 5 étapes avec les délais légaux, les documents obligatoires et les principaux risques prud'homaux. Base-toi sur le Code du travail en vigueur.\"",
+      "ère déterminant dans un secteur en mutation rapide. Les fournisseurs proposant des mises à jour régulières, une veille technologique active et une roadmap transparente offrent une meilleure garantie de pérennité. Cette dimension prospective permet aux cabinets d'anticiper les évolutions technologiques"
+    ]
+  },
+  {
+    "terme": "NIS2",
+    "categorie": "Réglementation & Conformité",
+    "definition": "Directive européenne sur la sécurité des réseaux et des systèmes d'information, renforcée pour inclure les risques liés aux systèmes d'IA.",
+    "frequence": 1,
+    "slug": "nis2",
+    "contextes": [
+      "quilibrer précision et créativité. Demande d'abord la checklist générale, puis affine secteur par secteur. GPT-4 excelle pour croiser RGPD, directive NIS2 et réglementations sectorielles.  ---  ## 💡 Prompt #3 : Rédaction accord de méthode télétravail post-Covid **Catégorie** : Droit social **Difficulté*"
+    ]
+  },
+  {
+    "terme": "DSA",
+    "categorie": "Réglementation & Conformité",
+    "definition": "Digital Services Act. Règlement européen encadrant les services numériques et la modération algorithmique.",
+    "frequence": 1,
+    "slug": "dsa",
+    "contextes": [
+      "e  L'incapacité de TikTok à labelliser correctement ses contenus publicitaires générés par IA révèle un angle mort réglementaire majeur. Alors que le DSA européen exige la transparence sur les contenus synthétiques, cette faille montre que même les plateformes peinent à s'autoréguler. Les autorités de"
+    ]
+  },
+  {
+    "terme": "DPIA",
+    "categorie": "Réglementation & Conformité",
+    "definition": "Data Protection Impact Assessment. Analyse d'impact sur la protection des données, obligatoire pour les traitements IA à risque élevé sous le RGPD.",
+    "frequence": 1,
+    "slug": "dpia",
+    "contextes": [
+      "**Cartographie finale** des systèmes d'IA utilisés (internes et fournisseurs) - **Validation** des évaluations d'impact sur les droits fondamentaux (DPIA IA) - **Négociation fournisseurs** : Exiger les certificats de conformité CE  ### **Pour les avocats** - **Politique interne** sur l'usage d'IA génér"
+    ]
+  },
+  {
+    "terme": "Mistral",
+    "categorie": "Modèles & Technologies IA",
+    "definition": "Modèle de langage français développé par Mistral AI. Particulièrement pertinent pour les juristes francophones en raison de sa maîtrise du français.",
+    "frequence": 1,
+    "slug": "mistral",
+    "contextes": [
+      "tif :** Améliorer et personnaliser vos clauses contractuelles types en 5 minutes grâce à l'IA générative.  ### Prérequis - Accès à ChatGPT, Claude ou Mistral (version gratuite suffisante) - Vos modèles de clauses existants - Niveau : débutant  ### Étapes  **1. Préparez votre prompt structuré** ``` Tu es un"
+    ]
+  },
+  {
+    "terme": "embedding",
+    "categorie": "Modèles & Technologies IA",
+    "definition": "Représentation vectorielle de texte permettant de mesurer la similarité sémantique entre documents. Base technique des moteurs de recherche juridique IA.",
+    "frequence": 0,
+    "slug": "embedding",
+    "contextes": []
+  },
+  {
+    "terme": "Agent IA",
+    "categorie": "IA Agentique & Automatisation avancée",
+    "definition": "Système d'intelligence artificielle capable d'agir de manière autonome pour accomplir des tâches complexes : recherche d'informations, rédaction, prise de décision, interaction avec des outils externes. Les agents IA transforment la pratique juridique en automatisant des workflows entiers.",
+    "frequence": 0,
+    "slug": "agent-ia",
+    "contextes": []
+  },
+  {
+    "terme": "Agentic AI",
+    "categorie": "IA Agentique & Automatisation avancée",
+    "definition": "Paradigme d'IA dans lequel un ou plusieurs agents autonomes planifient et exécutent des séquences d'actions pour atteindre un objectif, sans intervention humaine à chaque étape. Représente la prochaine évolution des outils IA pour les juristes.",
+    "frequence": 0,
+    "slug": "agentic-ai",
+    "contextes": []
+  },
+  {
+    "terme": "Workflow automatisé",
+    "categorie": "IA Agentique & Automatisation avancée",
+    "definition": "Enchaînement de tâches juridiques exécutées automatiquement par des systèmes IA : collecte de documents, analyse, rédaction, validation. Réduit drastiquement le temps de traitement des dossiers répétitifs.",
+    "frequence": 0,
+    "slug": "workflow-automatise",
+    "contextes": []
+  },
+  {
+    "terme": "Justice prédictive",
+    "categorie": "Procédure & Contentieux IA",
+    "definition": "Utilisation d'algorithmes d'apprentissage automatique pour prédire l'issue probable d'un litige, estimer les chances de succès d'un recours ou anticiper les décisions judiciaires. Soulève des questions éthiques sur l'indépendance de la justice.",
+    "frequence": 0,
+    "slug": "justice-predictive",
+    "contextes": []
+  },
+  {
+    "terme": "e-Discovery",
+    "categorie": "Procédure & Contentieux IA",
+    "definition": "Processus de recherche, collecte et analyse électronique de preuves dans le cadre de procédures judiciaires ou d'enquêtes. L'IA permet de traiter des volumes massifs de documents en un temps réduit, révolutionnant la phase de discovery en droit anglo-saxon.",
+    "frequence": 0,
+    "slug": "e-discovery",
+    "contextes": []
+  },
+  {
+    "terme": "ODR (Online Dispute Resolution)",
+    "categorie": "Procédure & Contentieux IA",
+    "definition": "Résolution des litiges en ligne via des plateformes numériques intégrant l'IA pour faciliter la médiation, la négociation ou l'arbitrage. Se développe notamment pour les conflits de consommation et les litiges transfrontaliers dans l'UE.",
+    "frequence": 0,
+    "slug": "odr-online-dispute-resolution",
+    "contextes": []
+  },
+  {
+    "terme": "Legal design",
+    "categorie": "Procédure & Contentieux IA",
+    "definition": "Approche combinant design thinking et droit pour rendre les documents juridiques plus accessibles et compréhensibles. L'IA permet d'automatiser la transformation de contrats complexes en formats visuels et simplifiés.",
+    "frequence": 0,
+    "slug": "legal-design",
+    "contextes": []
+  },
+  {
+    "terme": "Deepfake juridique",
+    "categorie": "Sécurité & Cyberdroit",
+    "definition": "Utilisation de contenus synthétiques générés par IA (vidéos, audios, images falsifiées) dans un contexte juridique : fraude documentaire, faux témoignages, usurpation d'identité. Constitue une nouvelle catégorie de preuve numérique contestable devant les tribunaux.",
+    "frequence": 0,
+    "slug": "deepfake-juridique",
+    "contextes": []
+  },
+  {
+    "terme": "Preuve numérique",
+    "categorie": "Sécurité & Cyberdroit",
+    "definition": "Tout élément de preuve sous forme numérique admissible en justice : emails, métadonnées, logs, enregistrements, captures d'écran. L'IA modifie les standards d'authenticité et pose de nouveaux défis pour la recevabilité des preuves.",
+    "frequence": 0,
+    "slug": "preuve-numerique",
+    "contextes": []
+  },
+  {
+    "terme": "Signature électronique qualifiée",
+    "categorie": "Sécurité & Cyberdroit",
+    "definition": "Niveau le plus élevé de signature électronique selon le règlement eIDAS, utilisant un certificat qualifié délivré par un prestataire de confiance. Juridiquement équivalente à une signature manuscrite dans toute l'Union européenne.",
+    "frequence": 0,
+    "slug": "signature-electronique-qualifiee",
+    "contextes": []
+  },
+  {
+    "terme": "DORA",
+    "categorie": "Sécurité & Cyberdroit",
+    "definition": "Digital Operational Resilience Act. Règlement européen imposant aux entités financières des exigences strictes en matière de résilience opérationnelle numérique, incluant la gestion des risques liés aux prestataires IA tiers.",
+    "frequence": 0,
+    "slug": "dora",
+    "contextes": []
+  },
+  {
+    "terme": "CNIL",
+    "categorie": "Acteurs & Institutions",
+    "definition": "Commission Nationale de l'Informatique et des Libertés. Autorité française de contrôle chargée de veiller au respect du RGPD et des lois sur la protection des données. Publie des recommandations spécifiques sur l'utilisation de l'IA par les professionnels du droit.",
+    "frequence": 0,
+    "slug": "cnil",
+    "contextes": []
+  },
+  {
+    "terme": "Bureau européen de l'IA",
+    "categorie": "Acteurs & Institutions",
+    "definition": "Organe de l'Union européenne créé par l'AI Act pour superviser et coordonner la mise en œuvre du règlement sur l'IA. Responsable des modèles d'IA à usage général (GPAI) et de la coopération entre autorités nationales.",
+    "frequence": 0,
+    "slug": "bureau-europeen-de-l-ia",
+    "contextes": []
+  },
+  {
+    "terme": "RegTech",
+    "categorie": "Outils Juridiques IA",
+    "definition": "Regulatory Technology. Utilisation de technologies d'IA pour automatiser la conformité réglementaire : veille normative, reporting automatisé, détection des violations. Secteur en forte croissance avec l'entrée en vigueur de l'AI Act et DORA.",
+    "frequence": 0,
+    "slug": "regtech",
+    "contextes": []
+  },
+  {
+    "terme": "Recrutement algorithmique",
+    "categorie": "IA par Secteur — RH & Travail",
+    "definition": "Utilisation d'algorithmes d'IA pour filtrer les candidatures, évaluer les profils ou prédire la performance des candidats. Encadré par l'AI Act (risque élevé) et soumis aux règles anti-discrimination du droit du travail.",
+    "frequence": 0,
+    "slug": "recrutement-algorithmique",
+    "contextes": []
+  },
+  {
+    "terme": "Variabilité décisionnelle IA",
+    "categorie": "IA par Secteur — RH & Travail",
+    "definition": "Phénomène par lequel un même système IA produit des décisions incohérentes pour des cas similaires. Risque juridique majeur en matière de décisions RH assistées par IA, pouvant engager la responsabilité de l'employeur.",
+    "frequence": 0,
+    "slug": "variabilite-decisionnelle-ia",
+    "contextes": []
+  },
+  {
+    "terme": "Droit à l'explication",
+    "categorie": "Droits fondamentaux & Éthique IA",
+    "definition": "Droit reconnu par le RGPD (article 22) permettant à toute personne de demander une explication sur une décision automatisée la concernant. Fondement du contrôle humain des systèmes IA en matière de crédit, recrutement ou justice.",
+    "frequence": 0,
+    "slug": "droit-a-l-explication",
+    "contextes": []
+  },
+  {
+    "terme": "IA responsable",
+    "categorie": "Droits fondamentaux & Éthique IA",
+    "definition": "Ensemble de principes et pratiques visant à développer et déployer des systèmes d'IA de manière éthique, transparente et respectueuse des droits fondamentaux. Inclut l'explicabilité, la non-discrimination, la robustesse et la supervision humaine.",
+    "frequence": 0,
+    "slug": "ia-responsable",
+    "contextes": []
+  },
+  {
+    "terme": "Smart contract",
+    "categorie": "Contrats & Transactions IA",
+    "definition": "Programme informatique auto-exécutable dont les termes sont directement écrits dans du code et s'exécutent automatiquement lorsque des conditions prédéfinies sont remplies. Déployés sur blockchain, ils soulèvent des questions de qualification juridique et de responsabilité.",
+    "frequence": 0,
+    "slug": "smart-contract",
+    "contextes": []
+  },
+  {
+    "terme": "Scoring algorithmique",
+    "categorie": "IA par Secteur — Finance",
+    "definition": "Évaluation automatisée de la solvabilité, du risque ou de la fiabilité d'une personne par un algorithme IA. Encadré par le RGPD et l'AI Act (risque élevé), il doit être explicable et contestable par la personne concernée.",
+    "frequence": 0,
+    "slug": "scoring-algorithmique",
+    "contextes": []
+  }
+]

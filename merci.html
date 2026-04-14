@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue dans FinVox !</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        body { background: #0f172a; color: #f1f5f9; display:flex; align-items:center; justify-content:center; min-height:100vh; text-align:center; padding: 2rem; }
+        .merci { max-width: 560px; }
+        .merci__icon { font-size: 4rem; margin-bottom: 1.5rem; }
+        .merci__title { font-size: 2.2rem; font-weight: 800; margin-bottom: 1rem; }
+        .merci__title span { color: #2563eb; }
+        .merci__text { font-size: 1.1rem; color: #94a3b8; line-height: 1.7; margin-bottom: 2rem; }
+        .merci__steps { background: #1e293b; border-radius: 12px; padding: 1.5rem; text-align:left; margin-bottom: 2rem; }
+        .merci__steps h3 { color: #f1f5f9; margin-bottom: 1rem; font-size: 1rem; }
+        .merci__step { display:flex; gap: .75rem; align-items:flex-start; margin-bottom: .75rem; color: #94a3b8; font-size: .95rem; }
+        .merci__step-num { background: #2563eb; color: white; border-radius: 50%; width: 24px; height: 24px; display:flex; align-items:center; justify-content:center; font-size: .75rem; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+        .merci__gift { background: linear-gradient(135deg, #1e3a5f, #1e293b); border: 1px solid #2563eb33; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; }
+        .merci__gift h3 { color: #3b82f6; margin-bottom: .5rem; }
+        .merci__gift p { color: #94a3b8; font-size: .95rem; margin-bottom: 1rem; }
+        .btn--blue { background: #2563eb; color: white; padding: .75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; }
+        .btn--blue:hover { background: #1d4ed8; }
+    </style>
+</head>
+<body>
+    <div class="merci">
+        <div class="merci__icon">&#127881;</div>
+        <h1 class="merci__title">Bienvenue dans <span>FinVox</span>&nbsp;!</h1>
+        <p class="merci__text">Votre inscription est confirm&eacute;e. Vous recevrez la prochaine &eacute;dition <strong>mardi matin</strong>. En attendant, voici ce que vous pouvez faire.</p>
+
+        <div class="merci__steps">
+            <h3>&#128073; Les prochaines &eacute;tapes</h3>
+            <div class="merci__step"><div class="merci__step-num">1</div><span><strong>V&eacute;rifiez vos spams</strong> — ajoutez hello@finvox.fr &agrave; vos contacts pour ne rater aucune &eacute;dition.</span></div>
+            <div class="merci__step"><div class="merci__step-num">2</div><span><strong>T&eacute;l&eacute;chargez votre cadeau</strong> — 50 prompts IA pr&ecirc;ts &agrave; l&#39;emploi pour votre &eacute;quipe finance.</span></div>
+            <div class="merci__step"><div class="merci__step-num">3</div><span><strong>Partagez FinVox</strong> &agrave; un coll&egrave;gue DAF ou contr&ocirc;leur — chaque abonnement compte&nbsp;!</span></div>
+        </div>
+
+        <div class="merci__gift">
+            <h3>&#127873; Votre cadeau de bienvenue</h3>
+            <p>50 Prompts IA pour Directeurs Financiers — copier-coller dans ChatGPT ou Claude.</p>
+            <a href="../guide-prompts.html" class="btn--blue">Acc&eacute;der aux 50 prompts &rarr;</a>
+        </div>
+
+        <a href="../index.html" style="color: #64748b; font-size: .9rem;">&#8592; Retour &agrave; l&#39;accueil</a>
+    </div>
+</body>
+</html>

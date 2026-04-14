@@ -1,0 +1,11 @@
+<svg viewBox="0 0 160 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="FinVox">
+  <!-- Icône barres croissantes -->
+  <rect x="2" y="24" width="5" height="12" rx="1" fill="#2563eb" opacity="0.6"/>
+  <rect x="9" y="18" width="5" height="18" rx="1" fill="#2563eb" opacity="0.75"/>
+  <rect x="16" y="10" width="5" height="26" rx="1" fill="#2563eb"/>
+  <!-- Ligne tendance -->
+  <polyline points="4,26 11,20 18,12" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="18" cy="12" r="2" fill="#10b981"/>
+  <!-- Texte FinVox -->
+  <text x="28" y="27" font-family="Inter, sans-serif" font-weight="700" font-size="18" fill="#0f172a" letter-spacing="-0.5">Fin<tspan fill="#2563eb">Vox</tspan></text>
+</svg>

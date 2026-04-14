@@ -1,0 +1,1282 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "ai-act",
+        "label": "AI Act",
+        "category": "Réglementation & Conformité",
+        "color": "#1a237e",
+        "size": 76,
+        "url": "ai-act.html",
+        "definition": "Le règlement européen sur l'intelligence artificielle, établissant des règles harmonisées pour le développement et l'uti..."
+      }
+    },
+    {
+      "data": {
+        "id": "rgpd",
+        "label": "RGPD",
+        "category": "Réglementation & Conformité",
+        "color": "#1a237e",
+        "size": 62,
+        "url": "rgpd.html",
+        "definition": "Règlement Général sur la Protection des Données. Encadre la collecte et le traitement des données personnelles au sein d..."
+      }
+    },
+    {
+      "data": {
+        "id": "chatgpt",
+        "label": "ChatGPT",
+        "category": "Modèles & Technologies IA",
+        "color": "#6a1b9a",
+        "size": 30,
+        "url": "chatgpt.html",
+        "definition": "Interface conversationnelle développée par OpenAI basée sur les modèles GPT. L'un des premiers outils IA massivement ado..."
+      }
+    },
+    {
+      "data": {
+        "id": "legal-tech",
+        "label": "legal tech",
+        "category": "Outils Juridiques IA",
+        "color": "#00695c",
+        "size": 30,
+        "url": "legal-tech.html",
+        "definition": "Secteur d'activité combinant technologie et services juridiques. Inclut les outils d'automatisation, de recherche et d'a..."
+      }
+    },
+    {
+      "data": {
+        "id": "llm",
+        "label": "LLM",
+        "category": "Modèles & Technologies IA",
+        "color": "#6a1b9a",
+        "size": 80,
+        "url": "llm.html",
+        "definition": "Large Language Model. Modèle de traitement du langage de grande taille, entraîné sur des corpus massifs de texte (ex: GP..."
+      }
+    },
+    {
+      "data": {
+        "id": "few-shot",
+        "label": "few-shot",
+        "category": "Modèles & Technologies IA",
+        "color": "#6a1b9a",
+        "size": 30,
+        "url": "few-shot.html",
+        "definition": "Technique de prompt engineering consistant à fournir quelques exemples dans l'invite pour guider le modèle vers le forma..."
+      }
+    },
+    {
+      "data": {
+        "id": "ia-generative",
+        "label": "IA générative",
+        "category": "Modèles & Technologies IA",
+        "color": "#6a1b9a",
+        "size": 58,
+        "url": "ia-generative.html",
+        "definition": "Systèmes d'intelligence artificielle capables de créer du contenu original (texte, images, code) à partir de prompts, te..."
+      }
+    },
+    {
+      "data": {
+        "id": "propriete-intellectuelle",
+        "label": "propriété intellectuelle",
+        "category": "Branches du Droit concernées",
+        "color": "#37474f",
+        "size": 30,
+        "url": "propriete-intellectuelle.html",
+        "definition": "Branche du droit protégeant les créations de l'esprit. L'IA soulève des questions inédites : titularité du droit d'auteu..."
+      }
+    },
+    {
+      "data": {
+        "id": "automatisation-juridique",
+        "label": "automatisation juridique",
+        "category": "Pratique Professionnelle IA",
+        "color": "#1565c0",
+        "size": 34,
+        "url": "automatisation-juridique.html",
+        "definition": "Utilisation de l'IA pour automatiser des tâches répétitives dans la pratique du droit : rédaction de clauses, recherche ..."
+      }
+    },
+    {
+      "data": {
+        "id": "rag",
+        "label": "RAG",
+        "category": "Modèles & Technologies IA",
+        "color": "#6a1b9a",
+        "size": 40,
+        "url": "rag.html",
+        "definition": "Retrieval Augmented Generation. Technique combinant la recherche documentaire et la génération de texte par LLM pour amé..."
+      }
+    },
+    {
+      "data": {
+        "id": "secret-professionnel",
+        "label": "secret professionnel",
+        "category": "Pratique Professionnelle IA",
+        "color": "#1565c0",
+        "size": 30,
+        "url": "secret-professionnel.html",
+        "definition": "Obligation déontologique de confidentialité des avocats. Son respect lors de l'utilisation d'outils IA (envoi de données..."
+      }
+    },
+    {
+      "data": {
+        "id": "risque-eleve",
+        "label": "risque élevé",
+        "category": "Réglementation & Conformité",
+        "color": "#1a237e",
+        "size": 30,
+        "url": "risque-eleve.html",
+        "definition": "Catégorie de l'AI Act désignant les systèmes d'IA susceptibles d'avoir un impact significatif sur la sécurité ou les dro..."
+      }
+    },
+    {
+      "data": {
+        "id": "harvey",
+        "label": "Harvey",
+        "category": "Outils Juridiques IA",
+        "color": "#00695c",
+        "size": 36,
+        "url": "harvey.html",
+        "definition": "Assistant IA spécialisé pour les cabinets d'avocats, développé en partenariat avec des grands cabinets internationaux. P..."
+      }
+    },
+    {
+      "data": {
+        "id": "analyse-contractuelle",
+        "label": "analyse contractuelle",
+        "category": "Concepts Juridiques IA",
+        "color": "#e65100",
+        "size": 34,
+        "url": "analyse-contractuelle.html",
+        "definition": "Utilisation de l'IA pour examiner, comparer et extraire des informations clés de contrats juridiques. Réduit significati..."
+      }
+    },
+    {
+      "data": {
+        "id": "prompt-engineering",
+        "label": "prompt engineering",
+        "category": "Modèles & Technologies IA",
+        "color": "#6a1b9a",
+        "size": 30,
+        "url": "prompt-engineering.html",
+        "definition": "Art de formuler des instructions précises et structurées pour obtenir des réponses optimales d'un modèle de langage. Com..."
+      }
+    },
+    {
+      "data": {
+        "id": "donnees-personnelles",
+        "label": "données personnelles",
+        "category": "Concepts Juridiques IA",
+        "color": "#e65100",
+        "size": 30,
+        "url": "donnees-personnelles.html",
+        "definition": "Toute information permettant d'identifier directement ou indirectement une personne physique. Leur traitement par des sy..."
+      }
+    },
+    {
+      "data": {
+        "id": "tokens",
+        "label": "tokens",
+        "category": "Modèles & Technologies IA",
+        "color": "#6a1b9a",
+        "size": 30,
+        "url": "tokens.html",
+        "definition": "Unité de traitement des LLM (environ 3/4 d'un mot). La fenêtre contextuelle d'un modèle (mesurée en tokens) détermine la..."
+      }
+    },
+    {
+      "data": {
+        "id": "due-diligence-ia",
+        "label": "due diligence IA",
+        "category": "Concepts Juridiques IA",
+        "color": "#e65100",
+        "size": 30,
+        "url": "due-diligence-ia.html",
+        "definition": "Processus d'audit et de vérification approfondie des systèmes d'IA avant acquisition, investissement ou mise en conformi..."
+      }
+    },
+    {
+      "data": {
+        "id": "biais-algorithmique",
+        "label": "biais algorithmique",
+        "category": "Concepts Juridiques IA",
+        "color": "#e65100",
+        "size": 50,
+        "url": "biais-algorithmique.html",
+        "definition": "Discriminations ou erreurs systématiques introduites par un algorithme d'IA, souvent issues de données d'entraînement no..."
+      }
+    },
+    {
+      "data": {
+        "id": "legaltech",
+        "label": "legaltech",
+        "category": "Outils Juridiques IA",
+        "color": "#00695c",
+        "size": 30,
+        "url": "legaltech.html",
+        "definition": "Contraction de \"legal technology\". Désigne les startups et solutions technologiques transformant la pratique du droit pa..."
+      }
+    },
+    {
+      "data": {
+        "id": "donnees-d-entrainement",
+        "label": "données d'entraînement",
+        "category": "Concepts Juridiques IA",
+        "color": "#e65100",
+        "size": 30,
+        "url": "donnees-d-entrainement.html",
+        "definition": "Corpus de données utilisé pour entraîner un modèle d'IA. Leur origine, qualité et légalité soulèvent des questions de pr..."
+      }
+    },
+    {
+      "data": {
+        "id": "conformite-ia",
+        "label": "conformité IA",
+        "category": "Réglementation & Conformité",
+        "color": "#1a237e",
+        "size": 46,
+        "url": "conformite-ia.html",
+        "definition": "Ensemble des obligations légales et réglementaires que doivent respecter les entreprises qui développent ou utilisent de..."
+      }
+    },
+    {
+      "data": {
+        "id": "prompt-juridique",
+        "label": "prompt juridique",
+        "category": "Pratique Professionnelle IA",
+        "color": "#1565c0",
+        "size": 30,
+        "url": "prompt-juridique.html",
+        "definition": "Instruction spécifiquement formulée pour un LLM dans un contexte juridique. La maîtrise des prompts juridiques est une c..."
+      }
+    },
+    {
+      "data": {
+        "id": "hallucination",
+        "label": "hallucination",
+        "category": "Modèles & Technologies IA",
+        "color": "#6a1b9a",
+        "size": 30,
+        "url": "hallucination.html",
+        "definition": "Phénomène par lequel un modèle d'IA génère des informations fausses mais présentées avec assurance. Risque majeur en con..."
+      }
+    },
+    {
+      "data": {
+        "id": "legalon",
+        "label": "Legalon",
+        "category": "Outils Juridiques IA",
+        "color": "#00695c",
+        "size": 30,
+        "url": "legalon.html",
+        "definition": "Outil d'IA juridique pour l'analyse et la révision de contrats. Utilise des modèles de langage spécialisés pour identifi..."
+      }
+    },
+    {
+      "data": {
+        "id": "explicabilite",
+        "label": "explicabilité",
+        "category": "Concepts Juridiques IA",
+        "color": "#e65100",
+        "size": 34,
+        "url": "explicabilite.html",
+        "definition": "Capacité d'un système d'IA à justifier ses décisions de manière compréhensible pour l'humain. Droit à l'explication prév..."
+      }
+    },
+    {
+      "data": {
+        "id": "redaction-assistee",
+        "label": "rédaction assistée",
+        "category": "Pratique Professionnelle IA",
+        "color": "#1565c0",
+        "size": 30,
+        "url": "redaction-assistee.html",
+        "definition": "Utilisation d'outils IA pour aider à la rédaction d'actes juridiques, contrats, conclusions ou consultations. Améliore l..."
+      }
+    },
+    {
+      "data": {
+        "id": "dma",
+        "label": "DMA",
+        "category": "Réglementation & Conformité",
+        "color": "#1a237e",
+        "size": 30,
+        "url": "dma.html",
+        "definition": "Digital Markets Act. Règlement européen sur les marchés numériques visant à réguler les plateformes dominantes utilisant..."
+      }
+    },
+    {
+      "data": {
+        "id": "nis2",
+        "label": "NIS2",
+        "category": "Réglementation & Conformité",
+        "color": "#1a237e",
+        "size": 30,
+        "url": "nis2.html",
+        "definition": "Directive européenne sur la sécurité des réseaux et des systèmes d'information, renforcée pour inclure les risques liés ..."
+      }
+    },
+    {
+      "data": {
+        "id": "dsa",
+        "label": "DSA",
+        "category": "Réglementation & Conformité",
+        "color": "#1a237e",
+        "size": 30,
+        "url": "dsa.html",
+        "definition": "Digital Services Act. Règlement européen encadrant les services numériques et la modération algorithmique...."
+      }
+    },
+    {
+      "data": {
+        "id": "dpia",
+        "label": "DPIA",
+        "category": "Réglementation & Conformité",
+        "color": "#1a237e",
+        "size": 30,
+        "url": "dpia.html",
+        "definition": "Data Protection Impact Assessment. Analyse d'impact sur la protection des données, obligatoire pour les traitements IA à..."
+      }
+    },
+    {
+      "data": {
+        "id": "mistral",
+        "label": "Mistral",
+        "category": "Modèles & Technologies IA",
+        "color": "#6a1b9a",
+        "size": 30,
+        "url": "mistral.html",
+        "definition": "Modèle de langage français développé par Mistral AI. Particulièrement pertinent pour les juristes francophones en raison..."
+      }
+    },
+    {
+      "data": {
+        "id": "embedding",
+        "label": "embedding",
+        "category": "Modèles & Technologies IA",
+        "color": "#6a1b9a",
+        "size": 30,
+        "url": "embedding.html",
+        "definition": "Représentation vectorielle de texte permettant de mesurer la similarité sémantique entre documents. Base technique des m..."
+      }
+    },
+    {
+      "data": {
+        "id": "agent-ia",
+        "label": "Agent IA",
+        "category": "IA Agentique & Automatisation avancée",
+        "color": "#4a148c",
+        "size": 40,
+        "url": "agent-ia.html",
+        "definition": "Système d'intelligence artificielle capable d'agir de manière autonome pour accomplir des tâches complexes : recherche d..."
+      }
+    },
+    {
+      "data": {
+        "id": "agentic-ai",
+        "label": "Agentic AI",
+        "category": "IA Agentique & Automatisation avancée",
+        "color": "#4a148c",
+        "size": 30,
+        "url": "agentic-ai.html",
+        "definition": "Paradigme d'IA dans lequel un ou plusieurs agents autonomes planifient et exécutent des séquences d'actions pour atteind..."
+      }
+    },
+    {
+      "data": {
+        "id": "workflow-automatise",
+        "label": "Workflow automatisé",
+        "category": "IA Agentique & Automatisation avancée",
+        "color": "#4a148c",
+        "size": 30,
+        "url": "workflow-automatise.html",
+        "definition": "Enchaînement de tâches juridiques exécutées automatiquement par des systèmes IA : collecte de documents, analyse, rédact..."
+      }
+    },
+    {
+      "data": {
+        "id": "justice-predictive",
+        "label": "Justice prédictive",
+        "category": "Procédure & Contentieux IA",
+        "color": "#b71c1c",
+        "size": 30,
+        "url": "justice-predictive.html",
+        "definition": "Utilisation d'algorithmes d'apprentissage automatique pour prédire l'issue probable d'un litige, estimer les chances de ..."
+      }
+    },
+    {
+      "data": {
+        "id": "e-discovery",
+        "label": "e-Discovery",
+        "category": "Procédure & Contentieux IA",
+        "color": "#b71c1c",
+        "size": 30,
+        "url": "e-discovery.html",
+        "definition": "Processus de recherche, collecte et analyse électronique de preuves dans le cadre de procédures judiciaires ou d'enquête..."
+      }
+    },
+    {
+      "data": {
+        "id": "odr-online-dispute-resolution",
+        "label": "ODR (Online Dispute Resolution)",
+        "category": "Procédure & Contentieux IA",
+        "color": "#b71c1c",
+        "size": 30,
+        "url": "odr-online-dispute-resolution.html",
+        "definition": "Résolution des litiges en ligne via des plateformes numériques intégrant l'IA pour faciliter la médiation, la négociatio..."
+      }
+    },
+    {
+      "data": {
+        "id": "legal-design",
+        "label": "Legal design",
+        "category": "Procédure & Contentieux IA",
+        "color": "#b71c1c",
+        "size": 30,
+        "url": "legal-design.html",
+        "definition": "Approche combinant design thinking et droit pour rendre les documents juridiques plus accessibles et compréhensibles. L'..."
+      }
+    },
+    {
+      "data": {
+        "id": "deepfake-juridique",
+        "label": "Deepfake juridique",
+        "category": "Sécurité & Cyberdroit",
+        "color": "#880e4f",
+        "size": 38,
+        "url": "deepfake-juridique.html",
+        "definition": "Utilisation de contenus synthétiques générés par IA (vidéos, audios, images falsifiées) dans un contexte juridique : fra..."
+      }
+    },
+    {
+      "data": {
+        "id": "preuve-numerique",
+        "label": "Preuve numérique",
+        "category": "Sécurité & Cyberdroit",
+        "color": "#880e4f",
+        "size": 36,
+        "url": "preuve-numerique.html",
+        "definition": "Tout élément de preuve sous forme numérique admissible en justice : emails, métadonnées, logs, enregistrements, captures..."
+      }
+    },
+    {
+      "data": {
+        "id": "signature-electronique-qualifiee",
+        "label": "Signature électronique qualifiée",
+        "category": "Sécurité & Cyberdroit",
+        "color": "#880e4f",
+        "size": 30,
+        "url": "signature-electronique-qualifiee.html",
+        "definition": "Niveau le plus élevé de signature électronique selon le règlement eIDAS, utilisant un certificat qualifié délivré par un..."
+      }
+    },
+    {
+      "data": {
+        "id": "dora",
+        "label": "DORA",
+        "category": "Sécurité & Cyberdroit",
+        "color": "#880e4f",
+        "size": 30,
+        "url": "dora.html",
+        "definition": "Digital Operational Resilience Act. Règlement européen imposant aux entités financières des exigences strictes en matièr..."
+      }
+    },
+    {
+      "data": {
+        "id": "cnil",
+        "label": "CNIL",
+        "category": "Acteurs & Institutions",
+        "color": "#0d47a1",
+        "size": 40,
+        "url": "cnil.html",
+        "definition": "Commission Nationale de l'Informatique et des Libertés. Autorité française de contrôle chargée de veiller au respect du ..."
+      }
+    },
+    {
+      "data": {
+        "id": "bureau-europeen-de-l-ia",
+        "label": "Bureau européen de l'IA",
+        "category": "Acteurs & Institutions",
+        "color": "#0d47a1",
+        "size": 36,
+        "url": "bureau-europeen-de-l-ia.html",
+        "definition": "Organe de l'Union européenne créé par l'AI Act pour superviser et coordonner la mise en œuvre du règlement sur l'IA. Res..."
+      }
+    },
+    {
+      "data": {
+        "id": "regtech",
+        "label": "RegTech",
+        "category": "Outils Juridiques IA",
+        "color": "#00695c",
+        "size": 30,
+        "url": "regtech.html",
+        "definition": "Regulatory Technology. Utilisation de technologies d'IA pour automatiser la conformité réglementaire : veille normative,..."
+      }
+    },
+    {
+      "data": {
+        "id": "recrutement-algorithmique",
+        "label": "Recrutement algorithmique",
+        "category": "IA par Secteur — RH & Travail",
+        "color": "#2e7d32",
+        "size": 38,
+        "url": "recrutement-algorithmique.html",
+        "definition": "Utilisation d'algorithmes d'IA pour filtrer les candidatures, évaluer les profils ou prédire la performance des candidat..."
+      }
+    },
+    {
+      "data": {
+        "id": "variabilite-decisionnelle-ia",
+        "label": "Variabilité décisionnelle IA",
+        "category": "IA par Secteur — RH & Travail",
+        "color": "#2e7d32",
+        "size": 30,
+        "url": "variabilite-decisionnelle-ia.html",
+        "definition": "Phénomène par lequel un même système IA produit des décisions incohérentes pour des cas similaires. Risque juridique maj..."
+      }
+    },
+    {
+      "data": {
+        "id": "droit-a-l-explication",
+        "label": "Droit à l'explication",
+        "category": "Droits fondamentaux & Éthique IA",
+        "color": "#00838f",
+        "size": 42,
+        "url": "droit-a-l-explication.html",
+        "definition": "Droit reconnu par le RGPD (article 22) permettant à toute personne de demander une explication sur une décision automati..."
+      }
+    },
+    {
+      "data": {
+        "id": "ia-responsable",
+        "label": "IA responsable",
+        "category": "Droits fondamentaux & Éthique IA",
+        "color": "#00838f",
+        "size": 40,
+        "url": "ia-responsable.html",
+        "definition": "Ensemble de principes et pratiques visant à développer et déployer des systèmes d'IA de manière éthique, transparente et..."
+      }
+    },
+    {
+      "data": {
+        "id": "smart-contract",
+        "label": "Smart contract",
+        "category": "Contrats & Transactions IA",
+        "color": "#5d4037",
+        "size": 32,
+        "url": "smart-contract.html",
+        "definition": "Programme informatique auto-exécutable dont les termes sont directement écrits dans du code et s'exécutent automatiqueme..."
+      }
+    },
+    {
+      "data": {
+        "id": "scoring-algorithmique",
+        "label": "Scoring algorithmique",
+        "category": "IA par Secteur — Finance",
+        "color": "#e65100",
+        "size": 34,
+        "url": "scoring-algorithmique.html",
+        "definition": "Évaluation automatisée de la solvabilité, du risque ou de la fiabilité d'une personne par un algorithme IA. Encadré par ..."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "e0",
+        "source": "ai-act",
+        "target": "risque-eleve",
+        "label": "définit",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e1",
+        "source": "ai-act",
+        "target": "conformite-ia",
+        "label": "impose",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e2",
+        "source": "ai-act",
+        "target": "bureau-europeen-de-l-ia",
+        "label": "crée",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e3",
+        "source": "ai-act",
+        "target": "rgpd",
+        "label": "complète",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e4",
+        "source": "ai-act",
+        "target": "biais-algorithmique",
+        "label": "encadre",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e5",
+        "source": "ai-act",
+        "target": "explicabilite",
+        "label": "requiert",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e6",
+        "source": "ai-act",
+        "target": "ia-responsable",
+        "label": "promeut",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e7",
+        "source": "ai-act",
+        "target": "recrutement-algorithmique",
+        "label": "réglemente",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e8",
+        "source": "ai-act",
+        "target": "scoring-algorithmique",
+        "label": "réglemente",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e9",
+        "source": "rgpd",
+        "target": "donnees-personnelles",
+        "label": "protège",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e10",
+        "source": "rgpd",
+        "target": "cnil",
+        "label": "institue",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e11",
+        "source": "rgpd",
+        "target": "dpia",
+        "label": "exige",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e12",
+        "source": "rgpd",
+        "target": "droit-a-l-explication",
+        "label": "consacre",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e13",
+        "source": "rgpd",
+        "target": "donnees-d-entrainement",
+        "label": "encadre",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e14",
+        "source": "rgpd",
+        "target": "biais-algorithmique",
+        "label": "interdit",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e15",
+        "source": "cnil",
+        "target": "rgpd",
+        "label": "supervise",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e16",
+        "source": "cnil",
+        "target": "donnees-personnelles",
+        "label": "protège",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e17",
+        "source": "cnil",
+        "target": "ia-responsable",
+        "label": "promeut",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e18",
+        "source": "bureau-europeen-de-l-ia",
+        "target": "ai-act",
+        "label": "applique",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e19",
+        "source": "bureau-europeen-de-l-ia",
+        "target": "conformite-ia",
+        "label": "contrôle",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e20",
+        "source": "llm",
+        "target": "hallucination",
+        "label": "produit",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e21",
+        "source": "llm",
+        "target": "ia-generative",
+        "label": "alimente",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e22",
+        "source": "llm",
+        "target": "embedding",
+        "label": "utilise",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e23",
+        "source": "llm",
+        "target": "tokens",
+        "label": "traite",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e24",
+        "source": "llm",
+        "target": "rag",
+        "label": "améliore via",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e25",
+        "source": "llm",
+        "target": "prompt-engineering",
+        "label": "requiert",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e26",
+        "source": "llm",
+        "target": "few-shot",
+        "label": "utilise",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e27",
+        "source": "llm",
+        "target": "donnees-d-entrainement",
+        "label": "apprend de",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e28",
+        "source": "ia-generative",
+        "target": "propriete-intellectuelle",
+        "label": "questionne",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e29",
+        "source": "ia-generative",
+        "target": "secret-professionnel",
+        "label": "menace",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e30",
+        "source": "ia-generative",
+        "target": "hallucination",
+        "label": "risque",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e31",
+        "source": "ia-generative",
+        "target": "deepfake-juridique",
+        "label": "génère",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e32",
+        "source": "harvey",
+        "target": "llm",
+        "label": "basé sur",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e33",
+        "source": "harvey",
+        "target": "analyse-contractuelle",
+        "label": "réalise",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e34",
+        "source": "harvey",
+        "target": "redaction-assistee",
+        "label": "offre",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e35",
+        "source": "legalon",
+        "target": "llm",
+        "label": "basé sur",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e36",
+        "source": "legalon",
+        "target": "analyse-contractuelle",
+        "label": "réalise",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e37",
+        "source": "legal-tech",
+        "target": "automatisation-juridique",
+        "label": "permet",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e38",
+        "source": "legal-tech",
+        "target": "legaltech",
+        "label": "synonyme",
+        "weight": 1
+      }
+    },
+    {
+      "data": {
+        "id": "e39",
+        "source": "agent-ia",
+        "target": "llm",
+        "label": "utilise",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e40",
+        "source": "agent-ia",
+        "target": "agentic-ai",
+        "label": "compose",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e41",
+        "source": "agent-ia",
+        "target": "workflow-automatise",
+        "label": "exécute",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e42",
+        "source": "agent-ia",
+        "target": "rag",
+        "label": "utilise",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e43",
+        "source": "agentic-ai",
+        "target": "automatisation-juridique",
+        "label": "révolutionne",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e44",
+        "source": "dora",
+        "target": "nis2",
+        "label": "complète",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e45",
+        "source": "dora",
+        "target": "conformite-ia",
+        "label": "renforce",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e46",
+        "source": "deepfake-juridique",
+        "target": "preuve-numerique",
+        "label": "conteste",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e47",
+        "source": "deepfake-juridique",
+        "target": "ia-generative",
+        "label": "exploite",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e48",
+        "source": "signature-electronique-qualifiee",
+        "target": "preuve-numerique",
+        "label": "valide",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e49",
+        "source": "signature-electronique-qualifiee",
+        "target": "smart-contract",
+        "label": "authentifie",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e50",
+        "source": "justice-predictive",
+        "target": "llm",
+        "label": "utilise",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e51",
+        "source": "justice-predictive",
+        "target": "biais-algorithmique",
+        "label": "risque",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e52",
+        "source": "e-discovery",
+        "target": "llm",
+        "label": "utilise",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e53",
+        "source": "e-discovery",
+        "target": "preuve-numerique",
+        "label": "collecte",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e54",
+        "source": "odr-online-dispute-resolution",
+        "target": "automatisation-juridique",
+        "label": "applique",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e55",
+        "source": "recrutement-algorithmique",
+        "target": "biais-algorithmique",
+        "label": "risque",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e56",
+        "source": "recrutement-algorithmique",
+        "target": "droit-a-l-explication",
+        "label": "déclenche",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e57",
+        "source": "variabilite-decisionnelle-ia",
+        "target": "recrutement-algorithmique",
+        "label": "affecte",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e58",
+        "source": "variabilite-decisionnelle-ia",
+        "target": "ia-responsable",
+        "label": "contredit",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e59",
+        "source": "scoring-algorithmique",
+        "target": "biais-algorithmique",
+        "label": "risque",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e60",
+        "source": "scoring-algorithmique",
+        "target": "droit-a-l-explication",
+        "label": "déclenche",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e61",
+        "source": "regtech",
+        "target": "conformite-ia",
+        "label": "automatise",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e62",
+        "source": "regtech",
+        "target": "ai-act",
+        "label": "aide à respecter",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e63",
+        "source": "droit-a-l-explication",
+        "target": "explicabilite",
+        "label": "requiert",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e64",
+        "source": "ia-responsable",
+        "target": "biais-algorithmique",
+        "label": "prévient",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e65",
+        "source": "ia-responsable",
+        "target": "explicabilite",
+        "label": "inclut",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e66",
+        "source": "smart-contract",
+        "target": "analyse-contractuelle",
+        "label": "automatise",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e67",
+        "source": "smart-contract",
+        "target": "propriete-intellectuelle",
+        "label": "soulève",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e68",
+        "source": "prompt-juridique",
+        "target": "prompt-engineering",
+        "label": "applique",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e69",
+        "source": "prompt-juridique",
+        "target": "secret-professionnel",
+        "label": "risque",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e70",
+        "source": "redaction-assistee",
+        "target": "ia-generative",
+        "label": "utilise",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e71",
+        "source": "due-diligence-ia",
+        "target": "conformite-ia",
+        "label": "vérifie",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e72",
+        "source": "due-diligence-ia",
+        "target": "ai-act",
+        "label": "audit selon",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e73",
+        "source": "rag",
+        "target": "embedding",
+        "label": "utilise",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e74",
+        "source": "rag",
+        "target": "llm",
+        "label": "augmente",
+        "weight": 3
+      }
+    },
+    {
+      "data": {
+        "id": "e75",
+        "source": "dsa",
+        "target": "biais-algorithmique",
+        "label": "encadre",
+        "weight": 2
+      }
+    },
+    {
+      "data": {
+        "id": "e76",
+        "source": "dma",
+        "target": "ia-generative",
+        "label": "régule",
+        "weight": 2
+      }
+    }
+  ]
+}
