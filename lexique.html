@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FinVox — La newsletter hebdomadaire qui traduit l'intelligence artificielle en avantages concrets pour les Directeurs Financiers. FP&A, forecasting, outils IA, CSRD. Chaque vendredi.">
+    <meta name="keywords" content="IA finance, intelligence artificielle DAF, newsletter CFO, FP&A automatisé, forecasting IA, CSRD IA, outils IA directeur financier, prompt finance">
+    <meta name="author" content="FinVox">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="FinVox — L'IA au service de la Finance">
+    <meta property="og:description" content="FP&A, forecasting, outils IA et prompts directement applicables à votre pratique financière. Chaque vendredi.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://finvox.fr">
+    <meta property="og:locale" content="fr_FR">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FinVox — L'IA au service de la Finance">
+    <meta name="twitter:description" content="La newsletter francophone IA pour les Directeurs Financiers et CFO.">
+
+    <title>Le Lexique de l'IA pour les DAF et Directeurs Financiers | FinVox</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "FinVox",
+        "description": "Newsletter hebdomadaire francophone sur l'IA pour les Directeurs Financiers et CFO",
+        "brand": { "@type": "Brand", "name": "FinVox" },
+        "offers": [
+            { "@type": "Offer", "name": "FinVox Gratuit", "price": "0", "priceCurrency": "EUR" },
+            { "@type": "Offer", "name": "FinVox Pro", "price": "15", "priceCurrency": "EUR" }
+        ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- ========== 1. HEADER / NAVIGATION ========== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <svg class="nav__logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2" y="18" width="5" height="12" rx="1" fill="currentColor" opacity="0.5"/>
+                    <rect x="9" y="12" width="5" height="18" rx="1" fill="currentColor" opacity="0.75"/>
+                    <rect x="16" y="4" width="5" height="26" rx="1" fill="currentColor"/>
+                    <polyline points="4,20 11,14 18,6" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    <circle cx="18" cy="6" r="2.5" fill="#10b981"/>
+                </svg>
+                <span class="nav__logo-text">Fin<span class="nav__logo-accent">Vox</span></span>
+            </a>
+
+            <button class="nav__toggle" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav__menu" id="navMenu">
+                <li><a href="#avantages" class="nav__link">Pourquoi FinVox</a></li>
+                <li><a href="#contenu" class="nav__link">Contenu</a></li>
+                <li><a href="#tarifs" class="nav__link">Tarifs</a></li>
+                <li><a href="guide-prompts.html" class="nav__link">&#127873; 50 Prompts DAF</a></li>
+                <li><a href="https://finvox.beehiiv.com/subscribe" class="nav__link nav__cta">S&#39;inscrire gratuitement</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+<main style="padding-top: 100px; padding-bottom: 60px; background: var(--navy);">
+    <section class="hero" style="text-align: center; padding-bottom: 3rem; background: transparent;">
+        <div class="container">
+            <span class="badge" style="margin-bottom: 1.5rem; background: rgba(5,9,20,0.8); color: var(--gold); border-color: var(--gold);">Lexique B2B Intelligence Artificielle</span>
+            <h1 class="hero__title" style="color: white;">Le <span class="hero__title-accent">Lexique IA</span> du DAF</h1>
+            <p class="hero__subtitle" style="color: var(--gray-400); margin-top: 1rem;">Décryptez le jargon de l'Intelligence Artificielle dans la finance d'entreprise. <br>Pour comprendre, décider et investir au bon moment.</p>
+        </div>
+    </section>
+
+    <section style="padding: 2rem 0;">
+        <div class="container" style="max-width: 800px; margin: 0 auto;">
+
+            <!-- Catégorie 1 -->
+            <h2 style="color: var(--gold); font-family: var(--font-heading); font-size: 1.5rem; border-bottom: 1px solid var(--gray-800); padding-bottom: 0.5rem; margin-top: 2rem; margin-bottom: 1.5rem;">📊 1. Modélisation et Prévision (FP&A)</h2>
+
+            <div style="background: var(--navy-light); border: 1px solid var(--gray-800); border-radius: var(--radius-md); padding: 1.5rem; margin-bottom: 1.5rem;">
+                <h3 style="color: var(--white); font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">Algorithmic Forecasting (Prévision algorithmique)</h3>
+                <p style="color: var(--gray-400); font-size: 0.95rem; line-height: 1.6;">L'utilisation du Machine Learning pour prédire l'activité financière (CA, cash-flow) en croisant des historiques de données massives internes avec des variables externes (macro-économie, météo, etc.), surpassant de loin la modélisation traditionnelle sur Excel.</p>
+            </div>
+
+            <div style="background: var(--navy-light); border: 1px solid var(--gray-800); border-radius: var(--radius-md); padding: 1.5rem; margin-bottom: 1.5rem;">
+                <h3 style="color: var(--white); font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">xP&A (Extended Planning & Analysis)</h3>
+                <p style="color: var(--gray-400); font-size: 0.95rem; line-height: 1.6;">L'évolution du FP&A classique étendu à toute l'entreprise. L'IA connecte les données financières aux ressources humaines, aux ventes et à la supply chain en temps réel pour un pilotage d'entreprise décloisonné et continu.</p>
+            </div>
+
+            <div style="background: var(--navy-light); border: 1px solid var(--gray-800); border-radius: var(--radius-md); padding: 1.5rem; margin-bottom: 1.5rem;">
+                <h3 style="color: var(--white); font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">Automated Variance Analysis (Analyse d'écarts automatisée)</h3>
+                <p style="color: var(--gray-400); font-size: 0.95rem; line-height: 1.6;">Processus par lequel un algorithme identifie automatiquement l'origine des écarts entre le budget prévisionnel et la réalisation réelle, et génère instantanément un commentaire explicatif pour les contrôleurs de gestion.</p>
+            </div>
+
+            <!-- Catégorie 2 -->
+            <h2 style="color: var(--gold); font-family: var(--font-heading); font-size: 1.5rem; border-bottom: 1px solid var(--gray-800); padding-bottom: 0.5rem; margin-top: 3rem; margin-bottom: 1.5rem;">⚡ 2. Opérations et Clôture (Accounting)</h2>
+
+            <div style="background: var(--navy-light); border: 1px solid var(--gray-800); border-radius: var(--radius-md); padding: 1.5rem; margin-bottom: 1.5rem;">
+                <h3 style="color: var(--white); font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">Continuous Closing (Clôture en continu)</h3>
+                <p style="color: var(--gray-400); font-size: 0.95rem; line-height: 1.6;">Automatisation quasi totale du processus d'enregistrement comptable. Grâce à l'IA, les écritures sont générées et validées quotidiennement, permettant une clôture financière à J+1 (Soft Close) sans la surcharge de travail des fins de mois.</p>
+            </div>
+
+            <div style="background: var(--navy-light); border: 1px solid var(--gray-800); border-radius: var(--radius-md); padding: 1.5rem; margin-bottom: 1.5rem;">
+                <h3 style="color: var(--white); font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">IDP (Intelligent Document Processing)</h3>
+                <p style="color: var(--gray-400); font-size: 0.95rem; line-height: 1.6;">Technologie remplaçant l'OCR classique. L'IDP ne se contente pas de 'lire' le texte d'une facture, mais en extrait le contexte sémantique, déduit le compte de charge, vérifie les taux de TVA et l'intègre directement au bon format dans l'ERP.</p>
+            </div>
+
+            <div style="background: var(--navy-light); border: 1px solid var(--gray-800); border-radius: var(--radius-md); padding: 1.5rem; margin-bottom: 1.5rem;">
+                <h3 style="color: var(--white); font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">Smart Reconciliation (Auto-lettrage intelligent)</h3>
+                <p style="color: var(--gray-400); font-size: 0.95rem; line-height: 1.6;">Algorithme de lettrage capable d'associer des mouvements bancaires à des factures ouvertes avec des taux de succès proches de 100%, même en présence d'erreurs de références de paiement, de montants partiels ou groupés.</p>
+            </div>
+
+            <!-- Catégorie 3 -->
+            <h2 style="color: var(--gold); font-family: var(--font-heading); font-size: 1.5rem; border-bottom: 1px solid var(--gray-800); padding-bottom: 0.5rem; margin-top: 3rem; margin-bottom: 1.5rem;">🛡️ 3. Reporting et Conformité (Compliance)</h2>
+
+            <div style="background: var(--navy-light); border: 1px solid var(--gray-800); border-radius: var(--radius-md); padding: 1.5rem; margin-bottom: 1.5rem;">
+                <h3 style="color: var(--white); font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">Narrative Reporting (Génération narrative)</h3>
+                <p style="color: var(--gray-400); font-size: 0.95rem; line-height: 1.6;">L'utilisation des Large Language Models (LLMs) pour rédiger automatiquement des textes d'analyse financière et de commentaires de gestion en déduisant la trajectoire directement depuis les tableaux produits par les outils EPM.</p>
+            </div>
+
+            <div style="background: var(--navy-light); border: 1px solid var(--gray-800); border-radius: var(--radius-md); padding: 1.5rem; margin-bottom: 1.5rem;">
+                <h3 style="color: var(--white); font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">Anomaly Detection (Détection d'anomalies anti-fraude)</h3>
+                <p style="color: var(--gray-400); font-size: 0.95rem; line-height: 1.6;">Modèles non-supervisés analysant la totalité (100%) des transactions pour détecter les comportements déviants (modifications IBAN suspects, montants ronds anormaux, factures doublons) qui échappent à l'évaluation classique par échantillons.</p>
+            </div>
+
+            <div style="background: var(--navy-light); border: 1px solid var(--gray-800); border-radius: var(--radius-md); padding: 1.5rem; margin-bottom: 1.5rem;">
+                <h3 style="color: var(--white); font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">AI-Driven CSRD (Reporting ESG automatisé)</h3>
+                <p style="color: var(--gray-400); font-size: 0.95rem; line-height: 1.6;">Collecte automatisée via Traitement Automatique du Langage (NLP) des données extra-financières complexes (émissions carbone, politique RH) éparpillées dans les documents de l'entreprise pour structurer et auditer les nouveaux reporting européens réglementaires (CSRD).</p>
+            </div>
+
+            <div style="text-align: center; margin-top: 4rem;">
+                <a href="index.html#newsletter" style="display: inline-block; background: linear-gradient(135deg, var(--gold-dark), var(--gold)); color: var(--navy); padding: 1rem 2.5rem; border-radius: 50px; font-weight: bold; text-decoration: none; font-size: 1.1rem; box-shadow: 0 4px 15px rgba(232, 185, 79, 0.3);">Recevoir ces outils concrets chaque vendredi</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__brand">
+                    <div class="footer__logo">Fin<span>Vox</span></div>
+                    <div class="footer__tagline">Ce que l&#39;IA fait pour la Finance. Chaque vendredi.</div>
+                </div>
+                <div class="footer__links">
+                    <a href="#avantages" class="footer__link">Pourquoi FinVox</a>
+                    <a href="#contenu" class="footer__link">Rubriques</a>
+                    <a href="#tarifs" class="footer__link">Tarifs</a>
+                    <a href="blog.html" class="footer__link">Blog</a>
+                    <a href="guide-prompts.html" class="footer__link">50 Prompts DAF</a>
+                    <a href="https://finvox.beehiiv.com/subscribe" class="footer__link">S&#39;abonner</a>
+                </div>
+            </div>
+            <div class="footer__copy">&copy; 2026 FinVox &mdash; Tous droits r&eacute;serv&eacute;s &bull; <a href="#" class="footer__link">Mentions l&eacute;gales</a></div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
