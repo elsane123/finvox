@@ -112,11 +112,11 @@
 
     /* ---- 5. FAQ Accordion ---- */
     function initFAQ() {
-        var items = document.querySelectorAll('.faq__item');
+        var items = document.querySelectorAll('.faq-item');
         if (!items.length) return;
 
         items.forEach(function (item) {
-            var btn = item.querySelector('.faq__question');
+            var btn = item.querySelector('.faq-question');
             if (!btn) return;
             btn.addEventListener('click', function () {
                 var isActive = item.classList.contains('active');
@@ -124,7 +124,7 @@
                 items.forEach(function (other) {
                     if (other !== item) {
                         other.classList.remove('active');
-                        var ob = other.querySelector('.faq__question');
+                        var ob = other.querySelector('.faq-question');
                         if (ob) ob.setAttribute('aria-expanded', 'false');
                     }
                 });
